@@ -1,4 +1,4 @@
-## 🤝🏼 팀프로젝트1
+## 🤝🏼 팀프로젝트1 [상세내용](https://github.com/kbjung/Dacon/tree/main/TP1)
 ### 주식 종료 가격 예측 경진대회
 + 대회 [대회 링크](https://dacon.io/competitions/official/235857/overview/description)
 + 목표 : 데이터 전처리, 분석, 머신러닝 활용 기술 향상
