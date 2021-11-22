@@ -18,6 +18,9 @@
 + 예측 타겟
   - 11.01 ~ 11.05 종목 별 주가(월~금)
   - 11.29 ~ 12.03 종목 별 주가(월~금)
++ 활용 기술
+  - 데이터 수집 : pandas, financedatareader
+  - 데이터 탐색 : seaborn, matplotlib
 
 
 ### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
