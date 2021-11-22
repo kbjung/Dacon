@@ -18,3 +18,13 @@
 + 예측 타겟
   - 11.01 ~ 11.05 종목 별 주가(월~금)
   - 11.29 ~ 12.03 종목 별 주가(월~금)
+
+
+### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
+  + 데이터 수집(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-01_데이터_수집_주가.html)
+  + 데이터 종합(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-02_데이터_수집_합치기.html)
+  + 데이터 결측치 처리(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-03_결측치_처리.html)
+
+
+### 데이터 분석 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
+  + 데이터 탐색(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/02_데이터분석/02-01_EDA.html)
