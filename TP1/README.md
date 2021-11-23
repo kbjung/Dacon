@@ -39,3 +39,14 @@
 
 ### 02 데이터 분석 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
   + 데이터 탐색(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/02_데이터분석/02-01_EDA.html)
+
+### 03 모델 선정 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/03_%EB%AA%A8%EB%8D%B8_%EC%84%A0%EC%A0%95)
+  + pycaret 모델로 각 단계 정확도 높은 모델로 진행 ver0.3 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.3.html)
+  + catboost 모델로 각 단계 예측으로 진행, 1주 복제해서 제출 ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.4.html)
+
+### 제출 점수
+특성 2개 : weekday, weeknum
+특성 5개 : KOSDAQ, NASDAQ, S&P500, DOW, KOSPI
+|번호|제출일시|모델&알고리즘|특성, 방법|제출점수|
+|---|---|---|---|---|
+|01|2021-11-23 17:57:45|catboost|2+5, 각 단계별 예측, 1주 복제|3.9881899683|
