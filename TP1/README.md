@@ -27,6 +27,8 @@
 
 ### 전략
   + 다양한 데이터 수집과 머신러닝을 통한 주가 예측
+    - 외부자료 : KOSDAQ, KOSPI, DOW, NASDAQ, S&P500, 환율, 금, 유가, 비트코인, 미국 국채 10년, 미국 국채2년
+    - 외부자료 중 종가와 상관관계가 높은 자료만 선정(KOSDAQ, KOSPI, DOW, NASDAQ, S&P500)
 
 
 ### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
