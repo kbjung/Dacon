@@ -41,8 +41,12 @@
   + 데이터 탐색(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/02_데이터분석/02-01_EDA.html)
 
 ### 03 모델 선정 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/03_%EB%AA%A8%EB%8D%B8_%EC%84%A0%EC%A0%95)
-  + pycaret 모델로 각 단계 정확도 높은 모델로 진행 ver0.3 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.3.html)
+  + pycaret으로 각 단계 정확도 높은 모델로 진행 ver0.3 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.3.html)
   + catboost 모델로 각 단계 예측으로 진행, 1주 복제해서 제출 ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.4.html)
+  + pycaret으로 top1 모델로 진행 ver0.9(2021.11.25) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.9.html)
+    - 4주 훈련, 1주 예측(2개)
+    - 훈련, 테스트 셋 csv 파일(2개)로 생성
+    - 각 훈련 모델(2개) 저장
 
 ### 제출 점수
 특성 2개 : weekday, weeknum
