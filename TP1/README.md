@@ -45,22 +45,27 @@
 ### 03 모델 선정 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/03_%EB%AA%A8%EB%8D%B8_%EC%84%A0%EC%A0%95)
   + catboost 모델로 각 단계 예측으로 진행 ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.4.html)
     - 1주 복제해서 제출
+    - 1번째 제출 파일
   + pycaret으로 top1 모델로 진행 ver0.8(2021.11.25) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.8.html)
     - 4주 훈련, 1주 예측(2개)
     - 한 종목씩 예측
+    - 2번째 제출 파일
   + pycaret으로 top1 모델로 진행 ver0.9(2021.11.25) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.9.html)
     - 4주 훈련, 1주 예측(2개)
     - all_훈련, all_테스트 셋 csv 파일(2개)로 생성
     - 각 훈련 모델(2개) 저장
+    - 3번째 제출 파일
   + pycaret, top1 모델 ver1.0(colab)(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver1.0(colab).html)
     - 4주 훈련, 1주 예측(2개)
     - 종목코드를 카테고리형으로 설정, weeknum 제외
     - 각 훈련 모델(2개) 저장
   + pycaret, top1 모델 ver1.0.1(colab)(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver1.0.1(colab).html)
     - 모델 튜닝만 제외, 나머지 조건 ver1.0과 동일
+    - 4번째 제출 파일
   + pycaret, top1 모델 ver1.1(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver1.1.html)
     - 한 종목씩 예측
     - 튜닝 제외
+    - 5번째 제출 파일(미제출)
 
 ### 04 평가지표 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
