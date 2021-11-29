@@ -22,7 +22,7 @@
   - 데이터 수집 : pandas, financedatareader
   - 데이터 탐색 : seaborn, matplotlib
   - 머신 러닝 모델 및 라이브러리 : Pycaret, LinearRegression, Ridge, Catboost 등
-  - 평가지표 : MSE, RMSE, R2, MAE, NMAE(대회점수지표), NMAE*100(대회점수지표)
+  - 평가지표 : MSE, RMSE, R2, NMAE(대회점수지표), NMAE*100(대회점수지표)
 + 역할
   - 팀장 : 최두호
   - 팀원 : 김범중 📢, 김진연
