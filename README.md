@@ -9,7 +9,7 @@
 + 기간 : 2021.11.10 ~  2021.11.29 10:00 am
 + 팀원 : 최두호(팀장), 김범중, 김진연
 + 활용 기술 🔧
- - 데이터 수집 : pandas, financedatareader
- - 데이터 탐색 : seaborn, matplotlib
- - 머신 러닝 모델 및 라이브러리 : Pycaret, LinearRegression, Ridge, Catboost 등
- - 평가지표 : MSE, RMSE, R2, MAE, NMAE(대회점수지표), NMAE*100(대회점수지표)
+  - 데이터 수집 : pandas, financedatareader
+  - 데이터 탐색 : seaborn, matplotlib
+  - 머신 러닝 모델 및 라이브러리 : Pycaret, LinearRegression, Ridge, Catboost 등
+  - 평가지표 : MSE, RMSE, R2, MAE, NMAE(대회점수지표), NMAE*100(대회점수지표)
