@@ -55,6 +55,7 @@
   + 데이터 종합(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-02_데이터_수집_합치기.html)
   + 데이터 결측치 처리(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-03_결측치_처리.html)
   + 주식 종가 수집(2021.11.26) [code(html](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-04_종목_종가_수집.html)
+  + 주식 지수, 종목 코드, 종가 수집(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-05_주식지수_종목코드_셋_ver0.1.html)
 
 
 ### 02 데이터 분석 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
@@ -89,7 +90,10 @@
     - 예측 날 전날 데이터까지 사용
     - 튜닝 제외
   + pycaret, ridge 모델 ver0.1(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_ridge_ver0.1.html)
-  + pycaret, catboost 모델 ver0.1(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_catboost_ver0.1)
+  + pycaret, catboost 모델 ver0.1(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_catboost_ver0.1.html)
+    - 한 종목씩 예측
+  + pycaret, catboost 모델 ver0.2(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_catboost_ver0.2.html)
+    - KOSPI, KOSDAQ 종목 별 예측
 
 ### 04 평가지표 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
