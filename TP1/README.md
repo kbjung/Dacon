@@ -51,7 +51,7 @@
 ### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
   + 데이터 수집
     - 2021.01.04-11.19 / KOSPI, KOSDAQ, NASDAQ, DOW, S&P500, 금, 원유, 환율, 미국 국채 2, 10년, 비트코인 (2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-01_주식지수_데이터_수집_ver0.1.html)
-    - 2021.01.04-11.26 / ver0.1과 동일 (2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-01_주식지수_데이터_수집_ver0.2.html)
+    - 2021.01.04-11.26 / KOSDAQ, NASDAQ, DOW, S&P500, KOSPI (2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-01_주식지수_데이터_수집_ver0.2.html)
   + 데이터 종합(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-02_데이터_수집_합치기.html)
   + 데이터 결측치 처리(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-03_결측치_처리.html)
   + 주식 종가 수집(2021.11.26) [code(html](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-04_종목_종가_수집.html)
