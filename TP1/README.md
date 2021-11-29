@@ -94,6 +94,8 @@
     - 한 종목씩 예측
   + pycaret, catboost 모델 ver0.2(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_catboost_ver0.2.html)
     - KOSPI, KOSDAQ 종목 별 예측
+    - pivot table 생성
+    - multi level columns에서 특정 column 만 제거
 
 ### 04 평가지표 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
