@@ -1,5 +1,5 @@
 # 🤝🏼 팀프로젝트1 [상세내용](https://github.com/kbjung/Dacon/tree/main/TP1)
-## 주식 종료 가격 예측 경진대회
+## 주식 종료 가격 예측 경진대회(종료)
 + 대회 [대회 링크](https://dacon.io/competitions/official/235857/overview/description)
 + 목표 : 데이터 전처리, 분석, 머신러닝 활용 기술 향상
 + 주제 : KOSPI-200과 KOSDAQ-150의 주어진 기간에 마지막으로 거래된 가격(종가)를 예측
@@ -21,6 +21,8 @@
 + 활용 기술 🔧
   - 데이터 수집 : pandas, financedatareader
   - 데이터 탐색 : seaborn, matplotlib
+  - 머신 러닝 모델 및 라이브러리 : Pycaret, LinearRegression, Ridge, Catboost 등
+  - 평가지표 : MSE, RMSE, R2, MAE, NMAE(대회점수지표), NMAE*100(대회점수지표)
 + 역할
   - 팀장 : 최두호
   - 팀원 : 김범중 📢, 김진연
@@ -29,6 +31,21 @@
   + 다양한 데이터 수집과 머신러닝을 통한 주가 예측
     - 외부자료 : KOSDAQ, KOSPI, DOW, NASDAQ, S&P500, 환율, 금, 유가, 비트코인, 미국 국채 10년, 미국 국채2년
     - 외부자료 중 종가와 상관관계가 높은 자료만 선정(KOSDAQ, KOSPI, DOW, NASDAQ, S&P500)
+
+
+#### 세부 분석 아이디어
+  + 타겟 날짜의 주가 인덱스를 상관계수가 높은 순으로 예측한 뒤, 마지막으로 종목 별로 종가 예측.
+    - 정확도는 좋은 편이나 시간이 오래 걸리는 문제 발생(최대 8시간)
+    - 과정이 복잡하여 코드 작성에 많은 시간 할애. 오류 발생 확률 상승.
+    - 오류 발생 지점 파악 어려움
+  + 지수 데이터에 종목 코드를 열로 붙여, 하나의 데이터 셋으로 만들어 종가 예측.(최두호님 아이디어)
+    - 한 번의 훈련으로 모든 종목 예측 가능. 시간이 많이 단축됨(최대 3시간. 평균적으로 1시간 반정도)
+    - 정확도가 낮음.
+    - 종목 코드를 카테고리형으로 지정시 진행 시간 많이 늘어남.
+    - 종목별로 종가 값이 거의 유사. weeknum이 같으면 값이 종가가 같은 문제 발생
+  + 시도중인 방법
+    - KOSPI, KOSDAQ 별로 종목 나누어 예측
+    - 주가를 4분위로 나누어 예측
 
 
 ### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
@@ -66,6 +83,11 @@
     - 한 종목씩 예측
     - 튜닝 제외
     - 5번째 제출 파일(미제출)
+  + pycaret, top1 모델 ver0.1(2021.11.28) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_ver0.1.html)
+    - 예측 날 전날 데이터까지 사용
+    - 튜닝 제외
+  + pycaret, ridge 모델 ver0.1(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_ridge_ver0.1.html)
+  + pycaret, catboost 모델 ver0.1(2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-02_pycaret_catboost_ver0.1)
 
 ### 04 평가지표 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
