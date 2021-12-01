@@ -48,7 +48,7 @@
   + stationary하게 데이터 변환
     - 5가지 지수와 종가 데이터를 비율로 변환(전날 기준으로 얼마나 변화했는지)
     - 전체 종목에 대해 한번에 비율로 훈련, 다시 원래 값으로 변환
-    - 점수 향상. 자체점수 : 2.00692 
+    - 점수 향상. 자체점수 : 3.22868 ✨
 
 
 ### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
@@ -116,7 +116,7 @@
     - 종가 비율 예측 시 KOSPI, KOSDAQ 종목 별로 예측
     - 자체 점수 : 2.00692 (코드 알고리즘 문제. 11-02~05일 데이터 유출)
   + pycaret, catboost 모델, 비율 예측 ver0.2(2021.12.01) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-03_pycaret_cat_rate_ver0.2.html)
-    - 자체 점수 : 3.22868
+    - 자체 점수 : 3.22868 ✨
 
 ### 04 평가지표 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
