@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>03-03_pycaret_cat_rate_ver0.1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
+<title>03-03_pycaret_cat_rate_ver0.2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
 (function() {
   function addWidgetsRenderer() {
     var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
@@ -14354,7 +14354,7 @@ a.anchor-link {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 제출 점수 :</span>
-<span class="c1"># 자체 결정계수 점수 : 2.00692</span>
+<span class="c1"># 자체 결정계수 점수 : 3.22868</span>
 </pre></div>
 
      </div>
@@ -14393,7 +14393,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../data/2021-01-04_2021-11-26_all_data2.csv&#39;</span><span class="p">)</span>
@@ -14408,7 +14408,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14464,7 +14464,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
@@ -14484,7 +14484,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
@@ -14629,7 +14629,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
@@ -14648,7 +14648,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 
 
 
@@ -14674,7 +14674,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Date&#39;</span><span class="p">,</span> <span class="s1">&#39;code&#39;</span><span class="p">,</span> <span class="s1">&#39;market&#39;</span><span class="p">,</span> <span class="s1">&#39;kospi_rate&#39;</span><span class="p">,</span> <span class="s1">&#39;nasdaq_rate&#39;</span><span class="p">,</span> <span class="s1">&#39;dow_rate&#39;</span><span class="p">,</span> <span class="s1">&#39;sp500_rate&#39;</span><span class="p">,</span> <span class="s1">&#39;kosdaq_rate&#39;</span><span class="p">]]</span>
@@ -14724,7 +14724,7 @@ memory usage: 5.3+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14743,7 +14743,7 @@ memory usage: 5.3+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -14851,7 +14851,7 @@ memory usage: 5.3+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2021-10-04&#39;</span>
@@ -14866,7 +14866,7 @@ memory usage: 5.3+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_train</span> <span class="o">=</span> <span class="n">index_data</span><span class="p">[(</span><span class="n">index_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">start_date</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">index_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">end_date</span><span class="p">)]</span>
@@ -14887,7 +14887,7 @@ memory usage: 5.3+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -14990,7 +14990,7 @@ memory usage: 5.3+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_train</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -15009,7 +15009,7 @@ memory usage: 5.3+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 
 
 
@@ -15112,7 +15112,7 @@ memory usage: 5.3+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_train</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -15166,7 +15166,7 @@ memory usage: 555.1+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_test</span> <span class="o">=</span> <span class="n">index_data</span><span class="p">[(</span><span class="n">index_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="s1">&#39;2021-11-01&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">index_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="s1">&#39;2021-11-05&#39;</span><span class="p">)]</span>
@@ -15188,7 +15188,7 @@ memory usage: 555.1+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 
 
 
@@ -15261,7 +15261,7 @@ memory usage: 555.1+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">index_test</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -15310,7 +15310,7 @@ memory usage: 43.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2021-10-04&#39;</span>
@@ -15358,62 +15358,62 @@ memory usage: 43.5+ KB
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 <style  type="text/css" >
-#T_a0fa0_row4_col0,#T_a0fa0_row4_col1,#T_a0fa0_row4_col2,#T_a0fa0_row4_col3,#T_a0fa0_row4_col4,#T_a0fa0_row4_col5{
+#T_9a9cc_row4_col0,#T_9a9cc_row4_col1,#T_9a9cc_row4_col2,#T_9a9cc_row4_col3,#T_9a9cc_row4_col4,#T_9a9cc_row4_col5{
             background:  yellow;
-        }</style><table id="T_a0fa0_" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >MAE</th>        <th class="col_heading level0 col1" >MSE</th>        <th class="col_heading level0 col2" >RMSE</th>        <th class="col_heading level0 col3" >R2</th>        <th class="col_heading level0 col4" >RMSLE</th>        <th class="col_heading level0 col5" >MAPE</th>    </tr></thead><tbody>
+        }</style><table id="T_9a9cc_" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >MAE</th>        <th class="col_heading level0 col1" >MSE</th>        <th class="col_heading level0 col2" >RMSE</th>        <th class="col_heading level0 col3" >R2</th>        <th class="col_heading level0 col4" >RMSLE</th>        <th class="col_heading level0 col5" >MAPE</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_a0fa0_level0_row0" class="row_heading level0 row0" >0</th>
-                        <td id="T_a0fa0_row0_col0" class="data row0 col0" >0.0000</td>
-                        <td id="T_a0fa0_row0_col1" class="data row0 col1" >0.0000</td>
-                        <td id="T_a0fa0_row0_col2" class="data row0 col2" >0.0000</td>
-                        <td id="T_a0fa0_row0_col3" class="data row0 col3" >1.0000</td>
-                        <td id="T_a0fa0_row0_col4" class="data row0 col4" >0.0000</td>
-                        <td id="T_a0fa0_row0_col5" class="data row0 col5" >0.0001</td>
+                        <th id="T_9a9cc_level0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_9a9cc_row0_col0" class="data row0 col0" >0.0000</td>
+                        <td id="T_9a9cc_row0_col1" class="data row0 col1" >0.0000</td>
+                        <td id="T_9a9cc_row0_col2" class="data row0 col2" >0.0000</td>
+                        <td id="T_9a9cc_row0_col3" class="data row0 col3" >1.0000</td>
+                        <td id="T_9a9cc_row0_col4" class="data row0 col4" >0.0000</td>
+                        <td id="T_9a9cc_row0_col5" class="data row0 col5" >0.0001</td>
             </tr>
             <tr>
-                        <th id="T_a0fa0_level0_row1" class="row_heading level0 row1" >1</th>
-                        <td id="T_a0fa0_row1_col0" class="data row1 col0" >0.0000</td>
-                        <td id="T_a0fa0_row1_col1" class="data row1 col1" >0.0000</td>
-                        <td id="T_a0fa0_row1_col2" class="data row1 col2" >0.0000</td>
-                        <td id="T_a0fa0_row1_col3" class="data row1 col3" >1.0000</td>
-                        <td id="T_a0fa0_row1_col4" class="data row1 col4" >0.0000</td>
-                        <td id="T_a0fa0_row1_col5" class="data row1 col5" >0.0001</td>
+                        <th id="T_9a9cc_level0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_9a9cc_row1_col0" class="data row1 col0" >0.0000</td>
+                        <td id="T_9a9cc_row1_col1" class="data row1 col1" >0.0000</td>
+                        <td id="T_9a9cc_row1_col2" class="data row1 col2" >0.0000</td>
+                        <td id="T_9a9cc_row1_col3" class="data row1 col3" >1.0000</td>
+                        <td id="T_9a9cc_row1_col4" class="data row1 col4" >0.0000</td>
+                        <td id="T_9a9cc_row1_col5" class="data row1 col5" >0.0001</td>
             </tr>
             <tr>
-                        <th id="T_a0fa0_level0_row2" class="row_heading level0 row2" >2</th>
-                        <td id="T_a0fa0_row2_col0" class="data row2 col0" >0.0000</td>
-                        <td id="T_a0fa0_row2_col1" class="data row2 col1" >0.0000</td>
-                        <td id="T_a0fa0_row2_col2" class="data row2 col2" >0.0000</td>
-                        <td id="T_a0fa0_row2_col3" class="data row2 col3" >1.0000</td>
-                        <td id="T_a0fa0_row2_col4" class="data row2 col4" >0.0000</td>
-                        <td id="T_a0fa0_row2_col5" class="data row2 col5" >0.0003</td>
+                        <th id="T_9a9cc_level0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_9a9cc_row2_col0" class="data row2 col0" >0.0000</td>
+                        <td id="T_9a9cc_row2_col1" class="data row2 col1" >0.0000</td>
+                        <td id="T_9a9cc_row2_col2" class="data row2 col2" >0.0000</td>
+                        <td id="T_9a9cc_row2_col3" class="data row2 col3" >1.0000</td>
+                        <td id="T_9a9cc_row2_col4" class="data row2 col4" >0.0000</td>
+                        <td id="T_9a9cc_row2_col5" class="data row2 col5" >0.0000</td>
             </tr>
             <tr>
-                        <th id="T_a0fa0_level0_row3" class="row_heading level0 row3" >3</th>
-                        <td id="T_a0fa0_row3_col0" class="data row3 col0" >0.0000</td>
-                        <td id="T_a0fa0_row3_col1" class="data row3 col1" >0.0000</td>
-                        <td id="T_a0fa0_row3_col2" class="data row3 col2" >0.0000</td>
-                        <td id="T_a0fa0_row3_col3" class="data row3 col3" >1.0000</td>
-                        <td id="T_a0fa0_row3_col4" class="data row3 col4" >0.0000</td>
-                        <td id="T_a0fa0_row3_col5" class="data row3 col5" >0.0000</td>
+                        <th id="T_9a9cc_level0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_9a9cc_row3_col0" class="data row3 col0" >0.0000</td>
+                        <td id="T_9a9cc_row3_col1" class="data row3 col1" >0.0000</td>
+                        <td id="T_9a9cc_row3_col2" class="data row3 col2" >0.0000</td>
+                        <td id="T_9a9cc_row3_col3" class="data row3 col3" >1.0000</td>
+                        <td id="T_9a9cc_row3_col4" class="data row3 col4" >0.0000</td>
+                        <td id="T_9a9cc_row3_col5" class="data row3 col5" >0.0000</td>
             </tr>
             <tr>
-                        <th id="T_a0fa0_level0_row4" class="row_heading level0 row4" >Mean</th>
-                        <td id="T_a0fa0_row4_col0" class="data row4 col0" >0.0000</td>
-                        <td id="T_a0fa0_row4_col1" class="data row4 col1" >0.0000</td>
-                        <td id="T_a0fa0_row4_col2" class="data row4 col2" >0.0000</td>
-                        <td id="T_a0fa0_row4_col3" class="data row4 col3" >1.0000</td>
-                        <td id="T_a0fa0_row4_col4" class="data row4 col4" >0.0000</td>
-                        <td id="T_a0fa0_row4_col5" class="data row4 col5" >0.0001</td>
+                        <th id="T_9a9cc_level0_row4" class="row_heading level0 row4" >Mean</th>
+                        <td id="T_9a9cc_row4_col0" class="data row4 col0" >0.0000</td>
+                        <td id="T_9a9cc_row4_col1" class="data row4 col1" >0.0000</td>
+                        <td id="T_9a9cc_row4_col2" class="data row4 col2" >0.0000</td>
+                        <td id="T_9a9cc_row4_col3" class="data row4 col3" >1.0000</td>
+                        <td id="T_9a9cc_row4_col4" class="data row4 col4" >0.0000</td>
+                        <td id="T_9a9cc_row4_col5" class="data row4 col5" >0.0001</td>
             </tr>
             <tr>
-                        <th id="T_a0fa0_level0_row5" class="row_heading level0 row5" >SD</th>
-                        <td id="T_a0fa0_row5_col0" class="data row5 col0" >0.0000</td>
-                        <td id="T_a0fa0_row5_col1" class="data row5 col1" >0.0000</td>
-                        <td id="T_a0fa0_row5_col2" class="data row5 col2" >0.0000</td>
-                        <td id="T_a0fa0_row5_col3" class="data row5 col3" >0.0000</td>
-                        <td id="T_a0fa0_row5_col4" class="data row5 col4" >0.0000</td>
-                        <td id="T_a0fa0_row5_col5" class="data row5 col5" >0.0001</td>
+                        <th id="T_9a9cc_level0_row5" class="row_heading level0 row5" >SD</th>
+                        <td id="T_9a9cc_row5_col0" class="data row5 col0" >0.0000</td>
+                        <td id="T_9a9cc_row5_col1" class="data row5 col1" >0.0000</td>
+                        <td id="T_9a9cc_row5_col2" class="data row5 col2" >0.0000</td>
+                        <td id="T_9a9cc_row5_col3" class="data row5 col3" >0.0000</td>
+                        <td id="T_9a9cc_row5_col4" class="data row5 col4" >0.0000</td>
+                        <td id="T_9a9cc_row5_col5" class="data row5 col5" >0.0000</td>
             </tr>
     </tbody></table>
 </div>
@@ -15427,7 +15427,7 @@ memory usage: 43.5+ KB
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>100%|██████████| 5/5 [13:28&lt;00:00, 161.70s/it]
+<pre>100%|███████████████████████████████████████████████████████████████████████████████████| 5/5 [11:51&lt;00:00, 142.31s/it]
 </pre>
 </div>
 </div>
@@ -15439,7 +15439,7 @@ memory usage: 43.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_index_test</span> <span class="o">=</span> <span class="n">pred_index_test</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15459,7 +15459,7 @@ memory usage: 43.5+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 
 
 
@@ -15498,7 +15498,7 @@ memory usage: 43.5+ KB
       <td>2021-11-01</td>
       <td>005930</td>
       <td>KOSPI</td>
-      <td>-0.003547</td>
+      <td>-0.003548</td>
       <td>0.008357</td>
       <td>-0.001033</td>
       <td>0.003379</td>
@@ -15542,7 +15542,7 @@ memory usage: 43.5+ KB
       <td>2021-11-01</td>
       <td>207940</td>
       <td>KOSPI</td>
-      <td>-0.003548</td>
+      <td>-0.003547</td>
       <td>0.008357</td>
       <td>-0.001033</td>
       <td>0.003379</td>
@@ -15564,55 +15564,55 @@ memory usage: 43.5+ KB
       <td>2021-11-05</td>
       <td>220630</td>
       <td>KOSDAQ</td>
-      <td>-0.002296</td>
-      <td>0.001421</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000403</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1846</th>
       <td>2021-11-05</td>
       <td>064260</td>
       <td>KOSDAQ</td>
-      <td>-0.002297</td>
-      <td>0.001422</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000399</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1847</th>
       <td>2021-11-05</td>
       <td>287410</td>
       <td>KOSDAQ</td>
-      <td>-0.002267</td>
-      <td>0.001421</td>
-      <td>0.000835</td>
-      <td>0.000845</td>
-      <td>-0.001029</td>
+      <td>-0.000412</td>
+      <td>-0.000409</td>
+      <td>0.000795</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1848</th>
       <td>2021-11-05</td>
       <td>110790</td>
       <td>KOSDAQ</td>
-      <td>-0.002297</td>
-      <td>0.001422</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000401</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1849</th>
       <td>2021-11-05</td>
       <td>099320</td>
       <td>KOSDAQ</td>
-      <td>-0.002297</td>
-      <td>0.001422</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000400</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
   </tbody>
 </table>
@@ -15629,7 +15629,7 @@ memory usage: 43.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[151]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># pred_index_test.to_csv(&#39;prac_4w_pred_1w_index_test_cat.csv&#39;, index=False)</span>
@@ -15648,7 +15648,7 @@ memory usage: 43.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -15709,7 +15709,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2021-10-04&#39;</span>
@@ -15724,7 +15724,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
@@ -15743,7 +15743,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 
 
 
@@ -15764,7 +15764,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">close_train</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span> <span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">start_date</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">end_date</span><span class="p">)</span> <span class="p">]</span>
@@ -15818,7 +15818,7 @@ memory usage: 624.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">close_train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -15837,7 +15837,7 @@ memory usage: 624.5+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 
 
 
@@ -15951,7 +15951,7 @@ memory usage: 624.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_index_test</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -16000,7 +16000,7 @@ memory usage: 115.8+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_index_test</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16019,7 +16019,7 @@ memory usage: 115.8+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
@@ -16058,7 +16058,7 @@ memory usage: 115.8+ KB
       <td>2021-11-01</td>
       <td>005930</td>
       <td>KOSPI</td>
-      <td>-0.003547</td>
+      <td>-0.003548</td>
       <td>0.008357</td>
       <td>-0.001033</td>
       <td>0.003379</td>
@@ -16102,7 +16102,7 @@ memory usage: 115.8+ KB
       <td>2021-11-01</td>
       <td>207940</td>
       <td>KOSPI</td>
-      <td>-0.003548</td>
+      <td>-0.003547</td>
       <td>0.008357</td>
       <td>-0.001033</td>
       <td>0.003379</td>
@@ -16122,7 +16122,7 @@ memory usage: 115.8+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_test</span> <span class="o">=</span> <span class="n">pred_index_test</span>
@@ -16136,7 +16136,7 @@ memory usage: 115.8+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_test</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -16155,7 +16155,7 @@ memory usage: 115.8+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
@@ -16194,55 +16194,55 @@ memory usage: 115.8+ KB
       <td>2021-11-05</td>
       <td>220630</td>
       <td>KOSDAQ</td>
-      <td>-0.002296</td>
-      <td>0.001421</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000403</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1846</th>
       <td>2021-11-05</td>
       <td>064260</td>
       <td>KOSDAQ</td>
-      <td>-0.002297</td>
-      <td>0.001422</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000399</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1847</th>
       <td>2021-11-05</td>
       <td>287410</td>
       <td>KOSDAQ</td>
-      <td>-0.002267</td>
-      <td>0.001421</td>
-      <td>0.000835</td>
-      <td>0.000845</td>
-      <td>-0.001029</td>
+      <td>-0.000412</td>
+      <td>-0.000409</td>
+      <td>0.000795</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1848</th>
       <td>2021-11-05</td>
       <td>110790</td>
       <td>KOSDAQ</td>
-      <td>-0.002297</td>
-      <td>0.001422</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000401</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
     <tr>
       <th>1849</th>
       <td>2021-11-05</td>
       <td>099320</td>
       <td>KOSDAQ</td>
-      <td>-0.002297</td>
-      <td>0.001422</td>
-      <td>0.000835</td>
-      <td>0.000844</td>
-      <td>-0.001029</td>
+      <td>-0.000400</td>
+      <td>-0.000409</td>
+      <td>0.000793</td>
+      <td>0.000623</td>
+      <td>0.001221</td>
     </tr>
   </tbody>
 </table>
@@ -16258,12 +16258,12 @@ memory usage: 115.8+ KB
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="&#49345;&#51109;-&#49884;&#51109;-&#48324;-&#51333;&#44032;-&#50696;&#52769;&#54616;&#44592;">&#49345;&#51109; &#49884;&#51109; &#48324; &#51333;&#44032; &#50696;&#52769;&#54616;&#44592;<a class="anchor-link" href="#&#49345;&#51109;-&#49884;&#51109;-&#48324;-&#51333;&#44032;-&#50696;&#52769;&#54616;&#44592;">&#182;</a></h2>
+<h2 id="&#49345;&#51109;-&#49884;&#51109;-&#48324;-&#51333;&#44032;-&#48708;&#50984;-&#50696;&#52769;&#54616;&#44592;">&#49345;&#51109; &#49884;&#51109; &#48324; &#51333;&#44032; &#48708;&#50984; &#50696;&#52769;&#54616;&#44592;<a class="anchor-link" href="#&#49345;&#51109;-&#49884;&#51109;-&#48324;-&#51333;&#44032;-&#48708;&#50984;-&#50696;&#52769;&#54616;&#44592;">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">market</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;KOSPI&#39;</span><span class="p">,</span> <span class="s1">&#39;KOSDAQ&#39;</span><span class="p">]</span>
@@ -16318,62 +16318,62 @@ memory usage: 115.8+ KB
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 <style  type="text/css" >
-#T_5d1a0_row4_col0,#T_5d1a0_row4_col1,#T_5d1a0_row4_col2,#T_5d1a0_row4_col3,#T_5d1a0_row4_col4,#T_5d1a0_row4_col5{
+#T_4c80a_row4_col0,#T_4c80a_row4_col1,#T_4c80a_row4_col2,#T_4c80a_row4_col3,#T_4c80a_row4_col4,#T_4c80a_row4_col5{
             background:  yellow;
-        }</style><table id="T_5d1a0_" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >MAE</th>        <th class="col_heading level0 col1" >MSE</th>        <th class="col_heading level0 col2" >RMSE</th>        <th class="col_heading level0 col3" >R2</th>        <th class="col_heading level0 col4" >RMSLE</th>        <th class="col_heading level0 col5" >MAPE</th>    </tr></thead><tbody>
+        }</style><table id="T_4c80a_" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >MAE</th>        <th class="col_heading level0 col1" >MSE</th>        <th class="col_heading level0 col2" >RMSE</th>        <th class="col_heading level0 col3" >R2</th>        <th class="col_heading level0 col4" >RMSLE</th>        <th class="col_heading level0 col5" >MAPE</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_5d1a0_level0_row0" class="row_heading level0 row0" >0</th>
-                        <td id="T_5d1a0_row0_col0" class="data row0 col0" >0.0192</td>
-                        <td id="T_5d1a0_row0_col1" class="data row0 col1" >0.0008</td>
-                        <td id="T_5d1a0_row0_col2" class="data row0 col2" >0.0291</td>
-                        <td id="T_5d1a0_row0_col3" class="data row0 col3" >0.1017</td>
-                        <td id="T_5d1a0_row0_col4" class="data row0 col4" >0.0236</td>
-                        <td id="T_5d1a0_row0_col5" class="data row0 col5" >1.4294</td>
+                        <th id="T_4c80a_level0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_4c80a_row0_col0" class="data row0 col0" >0.0199</td>
+                        <td id="T_4c80a_row0_col1" class="data row0 col1" >0.0009</td>
+                        <td id="T_4c80a_row0_col2" class="data row0 col2" >0.0296</td>
+                        <td id="T_4c80a_row0_col3" class="data row0 col3" >0.0786</td>
+                        <td id="T_4c80a_row0_col4" class="data row0 col4" >0.0245</td>
+                        <td id="T_4c80a_row0_col5" class="data row0 col5" >1.6138</td>
             </tr>
             <tr>
-                        <th id="T_5d1a0_level0_row1" class="row_heading level0 row1" >1</th>
-                        <td id="T_5d1a0_row1_col0" class="data row1 col0" >0.0197</td>
-                        <td id="T_5d1a0_row1_col1" class="data row1 col1" >0.0008</td>
-                        <td id="T_5d1a0_row1_col2" class="data row1 col2" >0.0287</td>
-                        <td id="T_5d1a0_row1_col3" class="data row1 col3" >0.0760</td>
-                        <td id="T_5d1a0_row1_col4" class="data row1 col4" >0.0237</td>
-                        <td id="T_5d1a0_row1_col5" class="data row1 col5" >1.6955</td>
+                        <th id="T_4c80a_level0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_4c80a_row1_col0" class="data row1 col0" >0.0201</td>
+                        <td id="T_4c80a_row1_col1" class="data row1 col1" >0.0009</td>
+                        <td id="T_4c80a_row1_col2" class="data row1 col2" >0.0305</td>
+                        <td id="T_4c80a_row1_col3" class="data row1 col3" >0.0508</td>
+                        <td id="T_4c80a_row1_col4" class="data row1 col4" >0.0249</td>
+                        <td id="T_4c80a_row1_col5" class="data row1 col5" >1.4468</td>
             </tr>
             <tr>
-                        <th id="T_5d1a0_level0_row2" class="row_heading level0 row2" >2</th>
-                        <td id="T_5d1a0_row2_col0" class="data row2 col0" >0.0202</td>
-                        <td id="T_5d1a0_row2_col1" class="data row2 col1" >0.0009</td>
-                        <td id="T_5d1a0_row2_col2" class="data row2 col2" >0.0296</td>
-                        <td id="T_5d1a0_row2_col3" class="data row2 col3" >0.0261</td>
-                        <td id="T_5d1a0_row2_col4" class="data row2 col4" >0.0246</td>
-                        <td id="T_5d1a0_row2_col5" class="data row2 col5" >1.8291</td>
+                        <th id="T_4c80a_level0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_4c80a_row2_col0" class="data row2 col0" >0.0209</td>
+                        <td id="T_4c80a_row2_col1" class="data row2 col1" >0.0011</td>
+                        <td id="T_4c80a_row2_col2" class="data row2 col2" >0.0329</td>
+                        <td id="T_4c80a_row2_col3" class="data row2 col3" >0.0618</td>
+                        <td id="T_4c80a_row2_col4" class="data row2 col4" >0.0272</td>
+                        <td id="T_4c80a_row2_col5" class="data row2 col5" >1.7216</td>
             </tr>
             <tr>
-                        <th id="T_5d1a0_level0_row3" class="row_heading level0 row3" >3</th>
-                        <td id="T_5d1a0_row3_col0" class="data row3 col0" >0.0210</td>
-                        <td id="T_5d1a0_row3_col1" class="data row3 col1" >0.0010</td>
-                        <td id="T_5d1a0_row3_col2" class="data row3 col2" >0.0310</td>
-                        <td id="T_5d1a0_row3_col3" class="data row3 col3" >0.0562</td>
-                        <td id="T_5d1a0_row3_col4" class="data row3 col4" >0.0255</td>
-                        <td id="T_5d1a0_row3_col5" class="data row3 col5" >1.6703</td>
+                        <th id="T_4c80a_level0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_4c80a_row3_col0" class="data row3 col0" >0.0214</td>
+                        <td id="T_4c80a_row3_col1" class="data row3 col1" >0.0010</td>
+                        <td id="T_4c80a_row3_col2" class="data row3 col2" >0.0309</td>
+                        <td id="T_4c80a_row3_col3" class="data row3 col3" >-0.0487</td>
+                        <td id="T_4c80a_row3_col4" class="data row3 col4" >0.0242</td>
+                        <td id="T_4c80a_row3_col5" class="data row3 col5" >1.8184</td>
             </tr>
             <tr>
-                        <th id="T_5d1a0_level0_row4" class="row_heading level0 row4" >Mean</th>
-                        <td id="T_5d1a0_row4_col0" class="data row4 col0" >0.0200</td>
-                        <td id="T_5d1a0_row4_col1" class="data row4 col1" >0.0009</td>
-                        <td id="T_5d1a0_row4_col2" class="data row4 col2" >0.0296</td>
-                        <td id="T_5d1a0_row4_col3" class="data row4 col3" >0.0650</td>
-                        <td id="T_5d1a0_row4_col4" class="data row4 col4" >0.0244</td>
-                        <td id="T_5d1a0_row4_col5" class="data row4 col5" >1.6561</td>
+                        <th id="T_4c80a_level0_row4" class="row_heading level0 row4" >Mean</th>
+                        <td id="T_4c80a_row4_col0" class="data row4 col0" >0.0206</td>
+                        <td id="T_4c80a_row4_col1" class="data row4 col1" >0.0010</td>
+                        <td id="T_4c80a_row4_col2" class="data row4 col2" >0.0310</td>
+                        <td id="T_4c80a_row4_col3" class="data row4 col3" >0.0356</td>
+                        <td id="T_4c80a_row4_col4" class="data row4 col4" >0.0252</td>
+                        <td id="T_4c80a_row4_col5" class="data row4 col5" >1.6501</td>
             </tr>
             <tr>
-                        <th id="T_5d1a0_level0_row5" class="row_heading level0 row5" >SD</th>
-                        <td id="T_5d1a0_row5_col0" class="data row5 col0" >0.0006</td>
-                        <td id="T_5d1a0_row5_col1" class="data row5 col1" >0.0001</td>
-                        <td id="T_5d1a0_row5_col2" class="data row5 col2" >0.0009</td>
-                        <td id="T_5d1a0_row5_col3" class="data row5 col3" >0.0277</td>
-                        <td id="T_5d1a0_row5_col4" class="data row5 col4" >0.0008</td>
-                        <td id="T_5d1a0_row5_col5" class="data row5 col5" >0.1441</td>
+                        <th id="T_4c80a_level0_row5" class="row_heading level0 row5" >SD</th>
+                        <td id="T_4c80a_row5_col0" class="data row5 col0" >0.0006</td>
+                        <td id="T_4c80a_row5_col1" class="data row5 col1" >0.0001</td>
+                        <td id="T_4c80a_row5_col2" class="data row5 col2" >0.0012</td>
+                        <td id="T_4c80a_row5_col3" class="data row5 col3" >0.0497</td>
+                        <td id="T_4c80a_row5_col4" class="data row5 col4" >0.0012</td>
+                        <td id="T_4c80a_row5_col5" class="data row5 col5" >0.1379</td>
             </tr>
     </tbody></table>
 </div>
@@ -16387,7 +16387,7 @@ memory usage: 115.8+ KB
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>100%|██████████| 2/2 [02:26&lt;00:00, 73.24s/it]
+<pre>100%|████████████████████████████████████████████████████████████████████████████████████| 2/2 [01:49&lt;00:00, 54.97s/it]
 </pre>
 </div>
 </div>
@@ -16399,7 +16399,7 @@ memory usage: 115.8+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_rate</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -16444,7 +16444,7 @@ memory usage: 72.3+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_rate</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16463,7 +16463,7 @@ memory usage: 72.3+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -16498,35 +16498,35 @@ memory usage: 72.3+ KB
       <td>2021-11-01</td>
       <td>005930</td>
       <td>KOSPI</td>
-      <td>-0.004727</td>
+      <td>-0.002903</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2021-11-01</td>
       <td>000660</td>
       <td>KOSPI</td>
-      <td>-0.000665</td>
+      <td>0.001866</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2021-11-01</td>
       <td>035420</td>
       <td>KOSPI</td>
-      <td>-0.002984</td>
+      <td>-0.002790</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2021-11-01</td>
       <td>035720</td>
       <td>KOSPI</td>
-      <td>-0.002850</td>
+      <td>-0.002790</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2021-11-01</td>
       <td>207940</td>
       <td>KOSPI</td>
-      <td>0.003500</td>
+      <td>0.002129</td>
     </tr>
   </tbody>
 </table>
@@ -16542,7 +16542,7 @@ memory usage: 72.3+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_rate</span> <span class="o">=</span> <span class="n">pred_close_rate</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;code&#39;</span><span class="p">,</span> <span class="s1">&#39;Date&#39;</span><span class="p">])</span>
@@ -16563,7 +16563,7 @@ memory usage: 72.3+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 
 
 
@@ -16598,35 +16598,35 @@ memory usage: 72.3+ KB
       <td>2021-11-01</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>0.000332</td>
+      <td>0.002328</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2021-11-02</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>0.007100</td>
+      <td>-0.003304</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2021-11-03</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>-0.000598</td>
+      <td>0.005864</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2021-11-04</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>0.008971</td>
+      <td>0.023918</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2021-11-05</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>-0.012760</td>
+      <td>0.002650</td>
     </tr>
     <tr>
       <th>...</th>
@@ -16640,35 +16640,35 @@ memory usage: 72.3+ KB
       <td>2021-11-01</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>-0.015143</td>
+      <td>-0.016779</td>
     </tr>
     <tr>
       <th>1846</th>
       <td>2021-11-02</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.003667</td>
+      <td>0.022060</td>
     </tr>
     <tr>
       <th>1847</th>
       <td>2021-11-03</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.041143</td>
+      <td>0.006508</td>
     </tr>
     <tr>
       <th>1848</th>
       <td>2021-11-04</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.011960</td>
+      <td>0.004333</td>
     </tr>
     <tr>
       <th>1849</th>
       <td>2021-11-05</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.023386</td>
+      <td>0.037639</td>
     </tr>
   </tbody>
 </table>
@@ -16690,7 +16690,7 @@ memory usage: 72.3+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 원 데이터</span>
@@ -16710,7 +16710,7 @@ memory usage: 72.3+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 
 
 
@@ -16855,7 +16855,7 @@ memory usage: 72.3+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -16911,7 +16911,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mod_data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span> <span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">,</span><span class="s1">&#39;code&#39;</span><span class="p">,</span><span class="s1">&#39;market&#39;</span><span class="p">,</span><span class="s1">&#39;close&#39;</span><span class="p">]</span> <span class="p">]</span>
@@ -16931,7 +16931,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 
 
 
@@ -17053,7 +17053,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mod_data</span> <span class="o">=</span> <span class="n">mod_data</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">&#39;code&#39;</span><span class="p">,</span> <span class="s1">&#39;Date&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -17073,7 +17073,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 
 
 
@@ -17195,7 +17195,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_rate</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()[:</span><span class="mi">5</span><span class="p">]</span>
@@ -17214,7 +17214,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
 
 
 
@@ -17232,7 +17232,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[97]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">stock_close_list</span> <span class="o">=</span> <span class="p">[]</span>
@@ -17241,19 +17241,28 @@ memory usage: 10.0+ MB
     <span class="n">temp_data</span> <span class="o">=</span> <span class="n">mod_data</span><span class="p">[</span><span class="n">mod_data</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">code</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     <span class="n">temp_pred</span> <span class="o">=</span> <span class="n">pred_close_rate</span><span class="p">[</span><span class="n">pred_close_rate</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">code</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-    <span class="c1"># 2021-11-01일의 종가 = 2021-10-29일의 종가 * (1 + 비율)</span>
-    <span class="c1"># 2021-11-02일의 종가 = 2021-11-01일의 종가 * (1 + 비율)</span>
-    <span class="c1"># 당일 종가 = 전날 종가 * (1 + 당일 비율)</span>
-
+    <span class="c1"># 날짜 지정</span>
     <span class="n">present_days</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2021-11-01&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-02&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-03&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-04&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-05&#39;</span><span class="p">]</span>
-    <span class="n">before_days</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2021-10-29&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-01&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-02&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-03&#39;</span><span class="p">,</span> <span class="s1">&#39;2021-11-04&#39;</span><span class="p">]</span>
-
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-        <span class="c1"># 전날 종가를 실제 데이터에서 가져오므로 데이터 유출</span>
-        <span class="n">before_close</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">temp_data</span><span class="p">[</span><span class="n">temp_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">before_days</span><span class="p">[</span><span class="n">i</span><span class="p">]][</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
-        <span class="n">present_rate</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">temp_pred</span><span class="p">[</span><span class="n">temp_pred</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">present_days</span><span class="p">[</span><span class="n">i</span><span class="p">]][</span><span class="s1">&#39;close_rate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+    
+    <span class="c1"># 당일 종가 = 전날 종가 * (1 + 당일 비율)</span>
+    <span class="c1"># 2021-11-01일의 예측 종가 = 2021-10-29일의 실제 종가 * (1 + 2021-11-01 예측 비율)</span>
+    <span class="c1"># 2021-11-02일의 예측 종가 = 2021-11-01일의 예측 종가 * (1 + 2021-11-02 예측 비율)</span>
+    
+    <span class="c1"># 2021-11-01일의 예측 종가 계산</span>
+    <span class="n">one_stock_close_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="c1"># 2021-10-29일의 실제 종가</span>
+    <span class="n">before_close</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">temp_data</span><span class="p">[</span><span class="n">temp_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;2021-10-29&#39;</span><span class="p">][</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+    <span class="c1"># 2021-11-01일의 예측 비율</span>
+    <span class="n">present_rate</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">temp_pred</span><span class="p">[</span><span class="n">temp_pred</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">present_days</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="s1">&#39;close_rate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+    <span class="n">close</span> <span class="o">=</span> <span class="n">before_close</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">present_rate</span><span class="p">)</span>
+    <span class="n">one_stock_close_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">close</span><span class="p">)</span>
+    <span class="c1"># 2021-11-02 ~ 05일의 예측 종가 계산</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+        <span class="n">before_close</span> <span class="o">=</span> <span class="n">one_stock_close_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">present_rate</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">temp_pred</span><span class="p">[</span><span class="n">temp_pred</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">present_days</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]][</span><span class="s1">&#39;close_rate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
         <span class="n">close</span> <span class="o">=</span> <span class="n">before_close</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">present_rate</span><span class="p">)</span>
-        <span class="n">stock_close_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">close</span><span class="p">)</span>
+        <span class="n">one_stock_close_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">close</span><span class="p">)</span>
+    <span class="n">stock_close_list</span> <span class="o">+=</span> <span class="n">one_stock_close_list</span>
 </pre></div>
 
      </div>
@@ -17273,7 +17282,7 @@ memory usage: 10.0+ MB
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>100%|██████████| 370/370 [00:07&lt;00:00, 46.29it/s]
+<pre>100%|███████████████████████████████████████████████████████████████████████████████| 370/370 [00:03&lt;00:00, 113.07it/s]
 </pre>
 </div>
 </div>
@@ -17285,7 +17294,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[98]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">stock_close_list</span><span class="p">)</span>
@@ -17304,7 +17313,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[98]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
@@ -17322,7 +17331,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[99]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">stock_close_list</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span>
@@ -17341,17 +17350,17 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[99]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[27709.18571115706,
- 28047.74371104249,
- 29232.504222604683,
- 30521.37775495088,
- 29074.220966643243]</pre>
+<pre>[27764.49912982529,
+ 27672.773475499987,
+ 27835.04682443043,
+ 28500.798377089628,
+ 28576.322026084064]</pre>
 </div>
 
 </div>
@@ -17363,7 +17372,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[107]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mod_data</span><span class="p">[</span> <span class="p">(</span><span class="n">mod_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">&gt;=</span><span class="s1">&#39;2021-11-01&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">mod_data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">&lt;=</span><span class="s1">&#39;2021-11-05&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">mod_data</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;000060&#39;</span><span class="p">)</span> <span class="p">]</span>
@@ -17382,7 +17391,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[107]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
 
 
 
@@ -17461,7 +17470,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_rate</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">stock_close_list</span>
@@ -17481,7 +17490,7 @@ memory usage: 10.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[100]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
 
 
 
@@ -17517,40 +17526,40 @@ memory usage: 10.0+ MB
       <td>2021-11-01</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>0.000332</td>
-      <td>27709.185711</td>
+      <td>0.002328</td>
+      <td>27764.499130</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2021-11-02</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>0.007100</td>
-      <td>28047.743711</td>
+      <td>-0.003304</td>
+      <td>27672.773475</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2021-11-03</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>-0.000598</td>
-      <td>29232.504223</td>
+      <td>0.005864</td>
+      <td>27835.046824</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2021-11-04</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>0.008971</td>
-      <td>30521.377755</td>
+      <td>0.023918</td>
+      <td>28500.798377</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2021-11-05</td>
       <td>000060</td>
       <td>KOSPI</td>
-      <td>-0.012760</td>
-      <td>29074.220967</td>
+      <td>0.002650</td>
+      <td>28576.322026</td>
     </tr>
     <tr>
       <th>...</th>
@@ -17565,40 +17574,40 @@ memory usage: 10.0+ MB
       <td>2021-11-01</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>-0.015143</td>
-      <td>16841.055048</td>
+      <td>-0.016779</td>
+      <td>16813.085583</td>
     </tr>
     <tr>
       <th>1846</th>
       <td>2021-11-02</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.003667</td>
-      <td>17664.543814</td>
+      <td>0.022060</td>
+      <td>17183.990468</td>
     </tr>
     <tr>
       <th>1847</th>
       <td>2021-11-03</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.041143</td>
-      <td>18844.690484</td>
+      <td>0.006508</td>
+      <td>17295.820041</td>
     </tr>
     <tr>
       <th>1848</th>
       <td>2021-11-04</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.011960</td>
-      <td>18518.863927</td>
+      <td>0.004333</td>
+      <td>17370.759710</td>
     </tr>
     <tr>
       <th>1849</th>
       <td>2021-11-05</td>
       <td>950130</td>
       <td>KOSDAQ</td>
-      <td>0.023386</td>
-      <td>17960.427271</td>
+      <td>0.037639</td>
+      <td>18024.580671</td>
     </tr>
   </tbody>
 </table>
@@ -17615,7 +17624,7 @@ memory usage: 10.0+ MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[101]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_close_rate</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -17666,7 +17675,7 @@ memory usage: 72.4+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[102]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_pivot</span> <span class="o">=</span> <span class="n">pred_close_rate</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;Date&#39;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="s1">&#39;code&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;close&#39;</span><span class="p">)</span>
@@ -17686,7 +17695,7 @@ memory usage: 72.4+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[102]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
 
 
 
@@ -17759,123 +17768,123 @@ memory usage: 72.4+ KB
   <tbody>
     <tr>
       <th>2021-11-01</th>
-      <td>27709.185711</td>
-      <td>34890.537277</td>
-      <td>59893.525732</td>
-      <td>142266.544176</td>
-      <td>103138.170303</td>
-      <td>16753.525980</td>
-      <td>47333.370240</td>
-      <td>85490.997274</td>
-      <td>102931.499998</td>
-      <td>687079.311492</td>
+      <td>27764.499130</td>
+      <td>34758.542985</td>
+      <td>59756.057998</td>
+      <td>141503.511612</td>
+      <td>102950.989132</td>
+      <td>16740.452467</td>
+      <td>47374.400253</td>
+      <td>85399.739588</td>
+      <td>103192.235635</td>
+      <td>690497.691266</td>
       <td>...</td>
-      <td>49177.964008</td>
-      <td>52755.456610</td>
-      <td>85549.391247</td>
-      <td>36619.590237</td>
-      <td>25968.805737</td>
-      <td>53169.078373</td>
-      <td>340426.961590</td>
-      <td>259883.987878</td>
-      <td>27039.988028</td>
-      <td>16841.055048</td>
+      <td>49061.401867</td>
+      <td>51936.698981</td>
+      <td>85278.081130</td>
+      <td>36232.424198</td>
+      <td>25923.409088</td>
+      <td>52931.497120</td>
+      <td>339129.540899</td>
+      <td>259748.733053</td>
+      <td>26927.608269</td>
+      <td>16813.085583</td>
     </tr>
     <tr>
       <th>2021-11-02</th>
-      <td>28047.743711</td>
-      <td>35309.637493</td>
-      <td>60236.472082</td>
-      <td>146127.357671</td>
-      <td>102914.195041</td>
-      <td>16670.008448</td>
-      <td>49932.056356</td>
-      <td>84750.570364</td>
-      <td>107084.427206</td>
-      <td>697772.633694</td>
+      <td>27672.773475</td>
+      <td>34599.202297</td>
+      <td>59516.532112</td>
+      <td>140796.416126</td>
+      <td>102184.715265</td>
+      <td>16703.991530</td>
+      <td>47726.745965</td>
+      <td>85155.310393</td>
+      <td>103625.271618</td>
+      <td>687988.509704</td>
       <td>...</td>
-      <td>48193.460581</td>
-      <td>52255.160101</td>
-      <td>81241.463285</td>
-      <td>36994.216772</td>
-      <td>25676.916322</td>
-      <td>52181.978138</td>
-      <td>360469.721638</td>
-      <td>262623.387349</td>
-      <td>26956.172132</td>
-      <td>17664.543814</td>
+      <td>49113.560615</td>
+      <td>52898.135319</td>
+      <td>85898.990330</td>
+      <td>36309.739364</td>
+      <td>25921.623350</td>
+      <td>52819.417570</td>
+      <td>341346.307653</td>
+      <td>260194.239296</td>
+      <td>26919.029746</td>
+      <td>17183.990468</td>
     </tr>
     <tr>
       <th>2021-11-03</th>
-      <td>29232.504223</td>
-      <td>35206.471695</td>
-      <td>61853.616687</td>
-      <td>148729.445239</td>
-      <td>106442.230703</td>
-      <td>17322.389586</td>
-      <td>49260.992207</td>
-      <td>86042.876979</td>
-      <td>108147.190840</td>
-      <td>699192.076429</td>
+      <td>27835.046824</td>
+      <td>34807.583937</td>
+      <td>59899.065078</td>
+      <td>141585.549662</td>
+      <td>101635.379457</td>
+      <td>16679.461199</td>
+      <td>48150.661862</td>
+      <td>85373.731053</td>
+      <td>104499.141777</td>
+      <td>687609.757213</td>
       <td>...</td>
-      <td>51256.290407</td>
-      <td>54728.125356</td>
-      <td>82127.121464</td>
-      <td>36322.307902</td>
-      <td>26180.676325</td>
-      <td>53483.919096</td>
-      <td>349423.449397</td>
-      <td>261477.406195</td>
-      <td>27028.221837</td>
-      <td>18844.690484</td>
+      <td>49680.640361</td>
+      <td>53155.759857</td>
+      <td>87165.515079</td>
+      <td>37012.262812</td>
+      <td>26145.015700</td>
+      <td>53132.302797</td>
+      <td>340985.058237</td>
+      <td>260957.606072</td>
+      <td>26627.320994</td>
+      <td>17295.820041</td>
     </tr>
     <tr>
       <th>2021-11-04</th>
-      <td>30521.377755</td>
-      <td>34266.608616</td>
-      <td>61817.541447</td>
-      <td>146452.332748</td>
-      <td>110863.646261</td>
-      <td>17179.136227</td>
-      <td>51015.906701</td>
-      <td>85586.767738</td>
-      <td>106133.694405</td>
-      <td>688049.855983</td>
+      <td>28500.798377</td>
+      <td>34901.779399</td>
+      <td>60829.802987</td>
+      <td>144155.142133</td>
+      <td>103181.013480</td>
+      <td>16787.221965</td>
+      <td>48375.355284</td>
+      <td>85918.692257</td>
+      <td>105464.429873</td>
+      <td>693434.175653</td>
       <td>...</td>
-      <td>49537.691768</td>
-      <td>54915.583750</td>
-      <td>82593.742913</td>
-      <td>34684.091922</td>
-      <td>25290.663309</td>
-      <td>50739.233533</td>
-      <td>350681.487627</td>
-      <td>251464.705724</td>
-      <td>26544.142268</td>
-      <td>18518.863927</td>
+      <td>50120.624917</td>
+      <td>53711.960556</td>
+      <td>88036.147297</td>
+      <td>37190.078437</td>
+      <td>25888.024835</td>
+      <td>52640.624145</td>
+      <td>345355.618662</td>
+      <td>259319.691412</td>
+      <td>26534.926097</td>
+      <td>17370.759710</td>
     </tr>
     <tr>
       <th>2021-11-05</th>
-      <td>29074.220967</td>
-      <td>33667.713069</td>
-      <td>60757.361093</td>
-      <td>144362.839093</td>
-      <td>129464.027806</td>
-      <td>17775.067450</td>
-      <td>50531.512845</td>
-      <td>86944.863491</td>
-      <td>105932.245329</td>
-      <td>684076.133113</td>
+      <td>28576.322026</td>
+      <td>35036.217192</td>
+      <td>61068.688871</td>
+      <td>144841.296668</td>
+      <td>104036.863300</td>
+      <td>16930.149135</td>
+      <td>48431.323573</td>
+      <td>86642.152898</td>
+      <td>106424.042960</td>
+      <td>695699.190327</td>
       <td>...</td>
-      <td>48165.036818</td>
-      <td>54275.527321</td>
-      <td>82396.879564</td>
-      <td>35557.922197</td>
-      <td>25464.011710</td>
-      <td>50418.607094</td>
-      <td>355427.940166</td>
-      <td>250036.655956</td>
-      <td>26079.240163</td>
-      <td>17960.427271</td>
+      <td>50303.633031</td>
+      <td>54248.381002</td>
+      <td>88014.891185</td>
+      <td>38564.568864</td>
+      <td>26080.445542</td>
+      <td>52962.513018</td>
+      <td>341376.958207</td>
+      <td>259466.599307</td>
+      <td>26347.997090</td>
+      <td>18024.580671</td>
     </tr>
   </tbody>
 </table>
@@ -17892,7 +17901,7 @@ memory usage: 72.4+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[103]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_pivot</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -17931,7 +17940,7 @@ memory usage: 14.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[105]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_pivot</span> <span class="o">=</span> <span class="n">pred_pivot</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -17951,7 +17960,7 @@ memory usage: 14.5+ KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[105]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
 
 
 
@@ -18001,122 +18010,122 @@ memory usage: 14.5+ KB
     <tr>
       <th>0</th>
       <td>2021-11-01</td>
-      <td>27709.185711</td>
-      <td>34890.537277</td>
-      <td>59893.525732</td>
-      <td>142266.544176</td>
-      <td>103138.170303</td>
-      <td>16753.525980</td>
-      <td>47333.370240</td>
-      <td>85490.997274</td>
-      <td>102931.499998</td>
+      <td>27764.499130</td>
+      <td>34758.542985</td>
+      <td>59756.057998</td>
+      <td>141503.511612</td>
+      <td>102950.989132</td>
+      <td>16740.452467</td>
+      <td>47374.400253</td>
+      <td>85399.739588</td>
+      <td>103192.235635</td>
       <td>...</td>
-      <td>49177.964008</td>
-      <td>52755.456610</td>
-      <td>85549.391247</td>
-      <td>36619.590237</td>
-      <td>25968.805737</td>
-      <td>53169.078373</td>
-      <td>340426.961590</td>
-      <td>259883.987878</td>
-      <td>27039.988028</td>
-      <td>16841.055048</td>
+      <td>49061.401867</td>
+      <td>51936.698981</td>
+      <td>85278.081130</td>
+      <td>36232.424198</td>
+      <td>25923.409088</td>
+      <td>52931.497120</td>
+      <td>339129.540899</td>
+      <td>259748.733053</td>
+      <td>26927.608269</td>
+      <td>16813.085583</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2021-11-02</td>
-      <td>28047.743711</td>
-      <td>35309.637493</td>
-      <td>60236.472082</td>
-      <td>146127.357671</td>
-      <td>102914.195041</td>
-      <td>16670.008448</td>
-      <td>49932.056356</td>
-      <td>84750.570364</td>
-      <td>107084.427206</td>
+      <td>27672.773475</td>
+      <td>34599.202297</td>
+      <td>59516.532112</td>
+      <td>140796.416126</td>
+      <td>102184.715265</td>
+      <td>16703.991530</td>
+      <td>47726.745965</td>
+      <td>85155.310393</td>
+      <td>103625.271618</td>
       <td>...</td>
-      <td>48193.460581</td>
-      <td>52255.160101</td>
-      <td>81241.463285</td>
-      <td>36994.216772</td>
-      <td>25676.916322</td>
-      <td>52181.978138</td>
-      <td>360469.721638</td>
-      <td>262623.387349</td>
-      <td>26956.172132</td>
-      <td>17664.543814</td>
+      <td>49113.560615</td>
+      <td>52898.135319</td>
+      <td>85898.990330</td>
+      <td>36309.739364</td>
+      <td>25921.623350</td>
+      <td>52819.417570</td>
+      <td>341346.307653</td>
+      <td>260194.239296</td>
+      <td>26919.029746</td>
+      <td>17183.990468</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2021-11-03</td>
-      <td>29232.504223</td>
-      <td>35206.471695</td>
-      <td>61853.616687</td>
-      <td>148729.445239</td>
-      <td>106442.230703</td>
-      <td>17322.389586</td>
-      <td>49260.992207</td>
-      <td>86042.876979</td>
-      <td>108147.190840</td>
+      <td>27835.046824</td>
+      <td>34807.583937</td>
+      <td>59899.065078</td>
+      <td>141585.549662</td>
+      <td>101635.379457</td>
+      <td>16679.461199</td>
+      <td>48150.661862</td>
+      <td>85373.731053</td>
+      <td>104499.141777</td>
       <td>...</td>
-      <td>51256.290407</td>
-      <td>54728.125356</td>
-      <td>82127.121464</td>
-      <td>36322.307902</td>
-      <td>26180.676325</td>
-      <td>53483.919096</td>
-      <td>349423.449397</td>
-      <td>261477.406195</td>
-      <td>27028.221837</td>
-      <td>18844.690484</td>
+      <td>49680.640361</td>
+      <td>53155.759857</td>
+      <td>87165.515079</td>
+      <td>37012.262812</td>
+      <td>26145.015700</td>
+      <td>53132.302797</td>
+      <td>340985.058237</td>
+      <td>260957.606072</td>
+      <td>26627.320994</td>
+      <td>17295.820041</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2021-11-04</td>
-      <td>30521.377755</td>
-      <td>34266.608616</td>
-      <td>61817.541447</td>
-      <td>146452.332748</td>
-      <td>110863.646261</td>
-      <td>17179.136227</td>
-      <td>51015.906701</td>
-      <td>85586.767738</td>
-      <td>106133.694405</td>
+      <td>28500.798377</td>
+      <td>34901.779399</td>
+      <td>60829.802987</td>
+      <td>144155.142133</td>
+      <td>103181.013480</td>
+      <td>16787.221965</td>
+      <td>48375.355284</td>
+      <td>85918.692257</td>
+      <td>105464.429873</td>
       <td>...</td>
-      <td>49537.691768</td>
-      <td>54915.583750</td>
-      <td>82593.742913</td>
-      <td>34684.091922</td>
-      <td>25290.663309</td>
-      <td>50739.233533</td>
-      <td>350681.487627</td>
-      <td>251464.705724</td>
-      <td>26544.142268</td>
-      <td>18518.863927</td>
+      <td>50120.624917</td>
+      <td>53711.960556</td>
+      <td>88036.147297</td>
+      <td>37190.078437</td>
+      <td>25888.024835</td>
+      <td>52640.624145</td>
+      <td>345355.618662</td>
+      <td>259319.691412</td>
+      <td>26534.926097</td>
+      <td>17370.759710</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2021-11-05</td>
-      <td>29074.220967</td>
-      <td>33667.713069</td>
-      <td>60757.361093</td>
-      <td>144362.839093</td>
-      <td>129464.027806</td>
-      <td>17775.067450</td>
-      <td>50531.512845</td>
-      <td>86944.863491</td>
-      <td>105932.245329</td>
+      <td>28576.322026</td>
+      <td>35036.217192</td>
+      <td>61068.688871</td>
+      <td>144841.296668</td>
+      <td>104036.863300</td>
+      <td>16930.149135</td>
+      <td>48431.323573</td>
+      <td>86642.152898</td>
+      <td>106424.042960</td>
       <td>...</td>
-      <td>48165.036818</td>
-      <td>54275.527321</td>
-      <td>82396.879564</td>
-      <td>35557.922197</td>
-      <td>25464.011710</td>
-      <td>50418.607094</td>
-      <td>355427.940166</td>
-      <td>250036.655956</td>
-      <td>26079.240163</td>
-      <td>17960.427271</td>
+      <td>50303.633031</td>
+      <td>54248.381002</td>
+      <td>88014.891185</td>
+      <td>38564.568864</td>
+      <td>26080.445542</td>
+      <td>52962.513018</td>
+      <td>341376.958207</td>
+      <td>259466.599307</td>
+      <td>26347.997090</td>
+      <td>18024.580671</td>
     </tr>
   </tbody>
 </table>
@@ -18138,10 +18147,10 @@ memory usage: 14.5+ KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[108]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_pivot</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;prac4w_pred1w_rate_cat.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pred_pivot</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;prac4w_pred1w_rate_cat2.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
