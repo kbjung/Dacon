@@ -122,9 +122,9 @@
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
 
 ### 제출 점수
-특성 2개 : weekday, weeknum
-특성 3개 : Date, weekday, weeknum
-특성 5개 : KOSDAQ, NASDAQ, S&P500, DOW, KOSPI
+특성 2개 : weekday, weeknum  
+특성 3개 : Date, weekday, weeknum  
+특성 5개 : KOSDAQ, NASDAQ, S&P500, DOW, KOSPI  
 |번호|제출일시|제출점수|자체점수|모델&알고리즘|특성, 방법|
 |---|---|---|---|---|---|
 |00|2021-11-22 09:36:01|3.4608244253|3.56289|linearregression(baseline)|1주전 , 1주 복제|
