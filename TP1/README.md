@@ -1,6 +1,6 @@
-# 🤝🏼 팀프로젝트1 [상세내용](https://github.com/kbjung/Dacon/tree/main/TP1)
+# 🤝🏼 팀프로젝트1 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP1)
 ## 주식 종료 가격 예측 경진대회(종료)
-+ 대회 [대회 링크](https://dacon.io/competitions/official/235857/overview/description)
++ 대회 [[대회 링크]](https://dacon.io/competitions/official/235857/overview/description)
 + 목표 : 데이터 전처리, 분석, 머신러닝 활용 기술 향상
 + 주제 : KOSPI-200과 KOSDAQ-150의 주어진 기간에 마지막으로 거래된 가격(종가)를 예측
 + 기간 : 2021.11.10 ~  2021.11.29 10:00 am
@@ -51,7 +51,7 @@
     - 점수 향상. 자체점수 : 3.22868 ✨
 
 
-### 01 데이터 수집 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
+### 01 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP1/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
   + 데이터 수집
     - 2021.01.04-11.19 / KOSPI, KOSDAQ, NASDAQ, DOW, S&P500, 금, 원유, 환율, 미국 국채 2, 10년, 비트코인 (2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-01_주식지수_데이터_수집_ver0.1.html)
     - 2021.01.04-11.26 / KOSDAQ, NASDAQ, DOW, S&P500, KOSPI (2021.11.29) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-01_주식지수_데이터_수집_ver0.2.html)
@@ -62,11 +62,11 @@
   + 주식 지수, 종가를 전날 기준 변화 비율로 변환한 값 추가(stationary) [code(html)](https://kbjung.github.io/Dacon/TP1/01_데이터수집/01-06_주가_비율_셋_ver0.1.html)
 
 
-### 02 데이터 분석 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
+### 02 데이터 분석 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP1/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
   + 데이터 탐색(2021.11.22) [code(html)](https://kbjung.github.io/Dacon/TP1/02_데이터분석/02-01_EDA.html)
   + 데이터 탐색(KOSPI, KOSDAQ, TOTAL 평균 상관계수)(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/02_데이터분석/02-02_EDA.html)
 
-### 03 모델 선정 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/03_%EB%AA%A8%EB%8D%B8_%EC%84%A0%EC%A0%95)
+### 03 모델 선정 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP1/03_%EB%AA%A8%EB%8D%B8_%EC%84%A0%EC%A0%95)
   + catboost 모델로 각 단계 예측으로 진행 ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-01_모델_선정_ver0.4.html)
     - 1주 복제해서 제출
     - 1번째 제출 파일
@@ -118,7 +118,7 @@
   + pycaret, catboost 모델, 비율 예측 ver0.2(2021.12.01) [code(html)](https://kbjung.github.io/Dacon/TP1/03_모델_선정/03-03_pycaret_cat_rate_ver0.2.html)
     - 자체 점수 : 3.22868 ✨
 
-### 04 평가지표 [폴더](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
+### 04 평가지표 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP1/04_%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9C)
   + 회귀 평가지표 함수화 ver0.3(2021.11.26) [code(html)](https://kbjung.github.io/Dacon/TP1/04_평가지표/04-01_평가지표_ver0.3.html)
 
 ### 제출 점수
