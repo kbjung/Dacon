@@ -14282,7 +14282,7 @@ a.anchor-link {
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14307,7 +14307,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 제출 점수 : 0.6135285036(2021-12-14 16:43:27)</span>
@@ -14326,7 +14326,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../data/train.csv&#39;</span><span class="p">)</span>
@@ -14346,7 +14346,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14371,44 +14371,46 @@ a.anchor-link {
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 501951 entries, 0 to 501950
-Data columns (total 33 columns):
- #   Column                  Non-Null Count   Dtype
----  ------                  --------------   -----
- 0   d_l_match_yn            501951 non-null  bool 
- 1   d_m_match_yn            501951 non-null  bool 
- 2   d_s_match_yn            501951 non-null  bool 
- 3   h_l_match_yn            501951 non-null  bool 
- 4   h_m_match_yn            501951 non-null  bool 
- 5   h_s_match_yn            501951 non-null  bool 
- 6   person_attribute_a      501951 non-null  int64
- 7   person_attribute_a_1    501951 non-null  int64
- 8   person_attribute_b      501951 non-null  int64
- 9   person_prefer_c         501951 non-null  int64
- 10  person_prefer_d_1       501951 non-null  int64
- 11  person_prefer_d_2       501951 non-null  int64
- 12  person_prefer_d_3       501951 non-null  int64
- 13  person_prefer_e         501951 non-null  int64
- 14  person_prefer_f         501951 non-null  int64
- 15  person_prefer_g         501951 non-null  int64
- 16  person_prefer_h_1       501951 non-null  int64
- 17  person_prefer_h_2       501951 non-null  int64
- 18  person_prefer_h_3       501951 non-null  int64
- 19  contents_attribute_i    501951 non-null  int64
- 20  contents_attribute_a    501951 non-null  int64
- 21  contents_attribute_j_1  501951 non-null  int64
- 22  contents_attribute_j    501951 non-null  int64
- 23  contents_attribute_c    501951 non-null  int64
- 24  contents_attribute_k    501951 non-null  int64
- 25  contents_attribute_l    501951 non-null  int64
- 26  contents_attribute_d    501951 non-null  int64
- 27  contents_attribute_m    501951 non-null  int64
- 28  contents_attribute_e    501951 non-null  int64
- 29  contents_attribute_h    501951 non-null  int64
- 30  person_rn               501951 non-null  int64
- 31  contents_rn             501951 non-null  int64
- 32  target                  501951 non-null  int64
-dtypes: bool(6), int64(27)
-memory usage: 106.3 MB
+Data columns (total 35 columns):
+ #   Column                  Non-Null Count   Dtype 
+---  ------                  --------------   ----- 
+ 0   id                      501951 non-null  int64 
+ 1   d_l_match_yn            501951 non-null  bool  
+ 2   d_m_match_yn            501951 non-null  bool  
+ 3   d_s_match_yn            501951 non-null  bool  
+ 4   h_l_match_yn            501951 non-null  bool  
+ 5   h_m_match_yn            501951 non-null  bool  
+ 6   h_s_match_yn            501951 non-null  bool  
+ 7   person_attribute_a      501951 non-null  int64 
+ 8   person_attribute_a_1    501951 non-null  int64 
+ 9   person_attribute_b      501951 non-null  int64 
+ 10  person_prefer_c         501951 non-null  int64 
+ 11  person_prefer_d_1       501951 non-null  int64 
+ 12  person_prefer_d_2       501951 non-null  int64 
+ 13  person_prefer_d_3       501951 non-null  int64 
+ 14  person_prefer_e         501951 non-null  int64 
+ 15  person_prefer_f         501951 non-null  int64 
+ 16  person_prefer_g         501951 non-null  int64 
+ 17  person_prefer_h_1       501951 non-null  int64 
+ 18  person_prefer_h_2       501951 non-null  int64 
+ 19  person_prefer_h_3       501951 non-null  int64 
+ 20  contents_attribute_i    501951 non-null  int64 
+ 21  contents_attribute_a    501951 non-null  int64 
+ 22  contents_attribute_j_1  501951 non-null  int64 
+ 23  contents_attribute_j    501951 non-null  int64 
+ 24  contents_attribute_c    501951 non-null  int64 
+ 25  contents_attribute_k    501951 non-null  int64 
+ 26  contents_attribute_l    501951 non-null  int64 
+ 27  contents_attribute_d    501951 non-null  int64 
+ 28  contents_attribute_m    501951 non-null  int64 
+ 29  contents_attribute_e    501951 non-null  int64 
+ 30  contents_attribute_h    501951 non-null  int64 
+ 31  person_rn               501951 non-null  int64 
+ 32  contents_rn             501951 non-null  int64 
+ 33  contents_open_dt        501951 non-null  object
+ 34  target                  501951 non-null  int64 
+dtypes: bool(6), int64(28), object(1)
+memory usage: 113.9+ MB
 </pre>
 </div>
 </div>
@@ -14420,7 +14422,7 @@ memory usage: 106.3 MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14439,7 +14441,7 @@ memory usage: 106.3 MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 
 
 
@@ -14704,7 +14706,7 @@ memory usage: 106.3 MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14729,43 +14731,45 @@ memory usage: 106.3 MB
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 46404 entries, 0 to 46403
-Data columns (total 32 columns):
- #   Column                  Non-Null Count  Dtype
----  ------                  --------------  -----
- 0   d_l_match_yn            46404 non-null  bool 
- 1   d_m_match_yn            46404 non-null  bool 
- 2   d_s_match_yn            46404 non-null  bool 
- 3   h_l_match_yn            46404 non-null  bool 
- 4   h_m_match_yn            46404 non-null  bool 
- 5   h_s_match_yn            46404 non-null  bool 
- 6   person_attribute_a      46404 non-null  int64
- 7   person_attribute_a_1    46404 non-null  int64
- 8   person_attribute_b      46404 non-null  int64
- 9   person_prefer_c         46404 non-null  int64
- 10  person_prefer_d_1       46404 non-null  int64
- 11  person_prefer_d_2       46404 non-null  int64
- 12  person_prefer_d_3       46404 non-null  int64
- 13  person_prefer_e         46404 non-null  int64
- 14  person_prefer_f         46404 non-null  int64
- 15  person_prefer_g         46404 non-null  int64
- 16  person_prefer_h_1       46404 non-null  int64
- 17  person_prefer_h_2       46404 non-null  int64
- 18  person_prefer_h_3       46404 non-null  int64
- 19  contents_attribute_i    46404 non-null  int64
- 20  contents_attribute_a    46404 non-null  int64
- 21  contents_attribute_j_1  46404 non-null  int64
- 22  contents_attribute_j    46404 non-null  int64
- 23  contents_attribute_c    46404 non-null  int64
- 24  contents_attribute_k    46404 non-null  int64
- 25  contents_attribute_l    46404 non-null  int64
- 26  contents_attribute_d    46404 non-null  int64
- 27  contents_attribute_m    46404 non-null  int64
- 28  contents_attribute_e    46404 non-null  int64
- 29  contents_attribute_h    46404 non-null  int64
- 30  person_rn               46404 non-null  int64
- 31  contents_rn             46404 non-null  int64
-dtypes: bool(6), int64(26)
-memory usage: 9.5 MB
+Data columns (total 34 columns):
+ #   Column                  Non-Null Count  Dtype 
+---  ------                  --------------  ----- 
+ 0   id                      46404 non-null  int64 
+ 1   d_l_match_yn            46404 non-null  bool  
+ 2   d_m_match_yn            46404 non-null  bool  
+ 3   d_s_match_yn            46404 non-null  bool  
+ 4   h_l_match_yn            46404 non-null  bool  
+ 5   h_m_match_yn            46404 non-null  bool  
+ 6   h_s_match_yn            46404 non-null  bool  
+ 7   person_attribute_a      46404 non-null  int64 
+ 8   person_attribute_a_1    46404 non-null  int64 
+ 9   person_attribute_b      46404 non-null  int64 
+ 10  person_prefer_c         46404 non-null  int64 
+ 11  person_prefer_d_1       46404 non-null  int64 
+ 12  person_prefer_d_2       46404 non-null  int64 
+ 13  person_prefer_d_3       46404 non-null  int64 
+ 14  person_prefer_e         46404 non-null  int64 
+ 15  person_prefer_f         46404 non-null  int64 
+ 16  person_prefer_g         46404 non-null  int64 
+ 17  person_prefer_h_1       46404 non-null  int64 
+ 18  person_prefer_h_2       46404 non-null  int64 
+ 19  person_prefer_h_3       46404 non-null  int64 
+ 20  contents_attribute_i    46404 non-null  int64 
+ 21  contents_attribute_a    46404 non-null  int64 
+ 22  contents_attribute_j_1  46404 non-null  int64 
+ 23  contents_attribute_j    46404 non-null  int64 
+ 24  contents_attribute_c    46404 non-null  int64 
+ 25  contents_attribute_k    46404 non-null  int64 
+ 26  contents_attribute_l    46404 non-null  int64 
+ 27  contents_attribute_d    46404 non-null  int64 
+ 28  contents_attribute_m    46404 non-null  int64 
+ 29  contents_attribute_e    46404 non-null  int64 
+ 30  contents_attribute_h    46404 non-null  int64 
+ 31  person_rn               46404 non-null  int64 
+ 32  contents_rn             46404 non-null  int64 
+ 33  contents_open_dt        46404 non-null  object
+dtypes: bool(6), int64(27), object(1)
+memory usage: 10.2+ MB
 </pre>
 </div>
 </div>
@@ -14777,7 +14781,7 @@ memory usage: 9.5 MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14796,7 +14800,7 @@ memory usage: 9.5 MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 
 
 
@@ -15061,7 +15065,7 @@ memory usage: 9.5 MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;contents_open_dt&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> 
@@ -15076,7 +15080,7 @@ memory usage: 9.5 MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -15095,7 +15099,7 @@ memory usage: 9.5 MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -15358,7 +15362,7 @@ memory usage: 9.5 MB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_person_rn</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">person_rn</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -15404,7 +15408,7 @@ memory usage: 15.4 KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_above_10</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
@@ -15430,7 +15434,7 @@ memory usage: 15.4 KB
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>100%|██████████| 656/656 [00:01&lt;00:00, 400.09it/s]
+<pre>100%|███████████████████████████████████████████████████████████████████████████████| 656/656 [00:01&lt;00:00, 529.59it/s]
 </pre>
 </div>
 </div>
@@ -15442,7 +15446,7 @@ memory usage: 15.4 KB
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_above_10</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -15461,7 +15465,7 @@ memory usage: 15.4 KB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 
 
 
@@ -15705,6 +15709,80 @@ memory usage: 15.4 KB
 </div>
 </div>
 
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_above_10</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 7276 entries, 0 to 7275
+Data columns (total 33 columns):
+ #   Column                  Non-Null Count  Dtype
+---  ------                  --------------  -----
+ 0   d_l_match_yn            7276 non-null   bool 
+ 1   d_m_match_yn            7276 non-null   bool 
+ 2   d_s_match_yn            7276 non-null   bool 
+ 3   h_l_match_yn            7276 non-null   bool 
+ 4   h_m_match_yn            7276 non-null   bool 
+ 5   h_s_match_yn            7276 non-null   bool 
+ 6   person_attribute_a      7276 non-null   int64
+ 7   person_attribute_a_1    7276 non-null   int64
+ 8   person_attribute_b      7276 non-null   int64
+ 9   person_prefer_c         7276 non-null   int64
+ 10  person_prefer_d_1       7276 non-null   int64
+ 11  person_prefer_d_2       7276 non-null   int64
+ 12  person_prefer_d_3       7276 non-null   int64
+ 13  person_prefer_e         7276 non-null   int64
+ 14  person_prefer_f         7276 non-null   int64
+ 15  person_prefer_g         7276 non-null   int64
+ 16  person_prefer_h_1       7276 non-null   int64
+ 17  person_prefer_h_2       7276 non-null   int64
+ 18  person_prefer_h_3       7276 non-null   int64
+ 19  contents_attribute_i    7276 non-null   int64
+ 20  contents_attribute_a    7276 non-null   int64
+ 21  contents_attribute_j_1  7276 non-null   int64
+ 22  contents_attribute_j    7276 non-null   int64
+ 23  contents_attribute_c    7276 non-null   int64
+ 24  contents_attribute_k    7276 non-null   int64
+ 25  contents_attribute_l    7276 non-null   int64
+ 26  contents_attribute_d    7276 non-null   int64
+ 27  contents_attribute_m    7276 non-null   int64
+ 28  contents_attribute_e    7276 non-null   int64
+ 29  contents_attribute_h    7276 non-null   int64
+ 30  person_rn               7276 non-null   int64
+ 31  contents_rn             7276 non-null   int64
+ 32  target                  7276 non-null   int64
+dtypes: bool(6), int64(27)
+memory usage: 1.5 MB
+</pre>
+</div>
 </div>
 
 </div>
