@@ -7,7 +7,7 @@
 + 활용 기술 🔧
   - 데이터 수집 : 
   - 데이터 탐색 : matplotlib
-  - 머신 러닝 모델 및 라이브러리 : pycaret, rf, cat
+  - 머신 러닝 모델 및 라이브러리 : pycaret, rf, cat, nb
   - 평가지표 : F1-score(대회평가지표)
 
 ### 01 데이터 수집
@@ -21,3 +21,10 @@
   - ver0.1.1 : 모델 비교 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.1.1.html)
 + 10개 이상 컨텐츠 사용자 데이터로 예측(2021.12.14) [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.2.html)
   - ver0.2 : pycaret, rf, combine
++ 5개 이상 컨텐츠 사용자 데이터로 예측(2021.12.15)
+  - ver0.3 : pycaret, nb, combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.3.html)
+  - ver0.4 : pycaret, nb, combine, cardinality [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.4.html)
+  - ver0.5 : pycaret, cat, combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.5.html)
+
+### 점수 기록
++ 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
