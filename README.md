@@ -11,7 +11,7 @@
 + 활용 기술 🔧
   - 데이터 수집 : 
   - 데이터 탐색 : matplotlib
-  - 머신 러닝 모델 및 라이브러리 : pycaret, rf, cat
+  - 머신 러닝 모델 및 라이브러리 : pycaret, rf, cat, nb
   - 평가지표 : F1-score(대회평가지표)
 
 
