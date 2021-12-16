@@ -2,7 +2,7 @@
  데이콘 대회 프로젝트
 
 
-## 🤝🏼 팀프로젝트2 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP2(잡케어))
+## 🤝🏼 팀프로젝트2(진행 중...) [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP2(잡케어))
 + 대회 : 잡케어 추천 알고리즘 경진대회 [[대회 링크]](https://dacon.io/competitions/official/235863/overview/description)
 + 목표 : 데이터 전처리, 분석, 머신러닝 활용 기술 향상
 + 주제 : 구직자의 이력서를 인공지능 기술로 직무역량을 자동 분석하여 개인별 맞춤형 컨텐츠 추천 모델 구축
@@ -13,6 +13,7 @@
   - 데이터 탐색 : matplotlib
   - 머신 러닝 모델 및 라이브러리 : pycaret, rf, cat, nb
   - 평가지표 : F1-score(대회평가지표)
++ 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
 
 
 ## 🤝🏼 팀프로젝트1 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP1)
