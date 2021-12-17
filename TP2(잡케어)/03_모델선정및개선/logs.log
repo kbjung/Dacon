@@ -5295,3 +5295,169 @@ KeyboardInterrupt
 2021-12-17 16:27:22,680:INFO:Extra Trees Classifier Imported succesfully
 2021-12-17 16:27:22,712:INFO:Starting cross validation
 2021-12-17 16:27:22,713:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=3
+2021-12-17 16:34:44,469:INFO:Calculating mean and std
+2021-12-17 16:34:44,472:INFO:Creating metrics dataframe
+2021-12-17 16:34:44,498:INFO:Uploading results into container
+2021-12-17 16:34:44,498:INFO:Uploading model into container now
+2021-12-17 16:34:44,499:INFO:create_model_container: 12
+2021-12-17 16:34:44,499:INFO:master_model_container: 12
+2021-12-17 16:34:44,499:INFO:display_container: 2
+2021-12-17 16:34:44,577:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=3,
+                     oob_score=False, random_state=0, verbose=0,
+                     warm_start=False)
+2021-12-17 16:34:44,577:INFO:create_model() succesfully completed......................................
+2021-12-17 16:34:44,857:INFO:SubProcess create_model() end ==================================
+2021-12-17 16:34:44,857:INFO:Creating metrics dataframe
+2021-12-17 16:34:44,996:INFO:Initializing Extreme Gradient Boosting
+2021-12-17 16:34:44,997:INFO:Total runtime is 33.29957600831985 minutes
+2021-12-17 16:34:45,026:INFO:SubProcess create_model() called ==================================
+2021-12-17 16:34:45,027:INFO:Initializing create_model()
+2021-12-17 16:34:45,027:INFO:create_model(estimator=xgboost, fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, add_to_model_list=True, display=<pycaret.internal.Display.Display object at 0x0000023E5112A070>, kwargs={})
+2021-12-17 16:34:45,027:INFO:Checking exceptions
+2021-12-17 16:34:45,092:INFO:Importing libraries
+2021-12-17 16:34:45,092:INFO:Copying training dataset
+2021-12-17 16:34:45,953:INFO:Defining folds
+2021-12-17 16:34:45,953:INFO:Declaring metric variables
+2021-12-17 16:34:45,961:INFO:Importing untrained model
+2021-12-17 16:34:46,067:INFO:Extreme Gradient Boosting Imported succesfully
+2021-12-17 16:34:46,099:INFO:Starting cross validation
+2021-12-17 16:34:46,123:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=3
+2021-12-17 16:39:12,459:INFO:Calculating mean and std
+2021-12-17 16:39:12,461:INFO:Creating metrics dataframe
+2021-12-17 16:39:12,466:INFO:Uploading results into container
+2021-12-17 16:39:12,467:INFO:Uploading model into container now
+2021-12-17 16:39:12,467:INFO:create_model_container: 13
+2021-12-17 16:39:12,467:INFO:master_model_container: 13
+2021-12-17 16:39:12,467:INFO:display_container: 2
+2021-12-17 16:39:12,476:INFO:XGBClassifier(base_score=None, booster='gbtree', colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None,
+              enable_categorical=False, gamma=None, gpu_id=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=3, num_parallel_tree=None,
+              objective='binary:logistic', predictor=None, random_state=0,
+              reg_alpha=None, reg_lambda=None, scale_pos_weight=None,
+              subsample=None, tree_method='auto', use_label_encoder=True,
+              validate_parameters=None, verbosity=0)
+2021-12-17 16:39:12,477:INFO:create_model() succesfully completed......................................
+2021-12-17 16:39:12,571:INFO:SubProcess create_model() end ==================================
+2021-12-17 16:39:12,571:INFO:Creating metrics dataframe
+2021-12-17 16:39:12,668:INFO:Initializing Light Gradient Boosting Machine
+2021-12-17 16:39:12,668:INFO:Total runtime is 37.76076611677806 minutes
+2021-12-17 16:39:12,678:INFO:SubProcess create_model() called ==================================
+2021-12-17 16:39:12,679:INFO:Initializing create_model()
+2021-12-17 16:39:12,679:INFO:create_model(estimator=lightgbm, fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, add_to_model_list=True, display=<pycaret.internal.Display.Display object at 0x0000023E5112A070>, kwargs={})
+2021-12-17 16:39:12,679:INFO:Checking exceptions
+2021-12-17 16:39:12,679:INFO:Importing libraries
+2021-12-17 16:39:12,679:INFO:Copying training dataset
+2021-12-17 16:39:12,719:INFO:Defining folds
+2021-12-17 16:39:12,719:INFO:Declaring metric variables
+2021-12-17 16:39:12,732:INFO:Importing untrained model
+2021-12-17 16:39:12,747:INFO:Light Gradient Boosting Machine Imported succesfully
+2021-12-17 16:39:12,777:INFO:Starting cross validation
+2021-12-17 16:39:12,778:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=3
+2021-12-17 16:39:38,977:INFO:Calculating mean and std
+2021-12-17 16:39:38,979:INFO:Creating metrics dataframe
+2021-12-17 16:39:38,987:INFO:Uploading results into container
+2021-12-17 16:39:38,987:INFO:Uploading model into container now
+2021-12-17 16:39:38,987:INFO:create_model_container: 14
+2021-12-17 16:39:38,988:INFO:master_model_container: 14
+2021-12-17 16:39:38,988:INFO:display_container: 2
+2021-12-17 16:39:38,989:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=3, num_leaves=31, objective=None,
+               random_state=0, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2021-12-17 16:39:38,989:INFO:create_model() succesfully completed......................................
+2021-12-17 16:39:39,094:INFO:SubProcess create_model() end ==================================
+2021-12-17 16:39:39,095:INFO:Creating metrics dataframe
+2021-12-17 16:39:39,164:INFO:Initializing CatBoost Classifier
+2021-12-17 16:39:39,165:INFO:Total runtime is 38.202389200528465 minutes
+2021-12-17 16:39:39,186:INFO:SubProcess create_model() called ==================================
+2021-12-17 16:39:39,186:INFO:Initializing create_model()
+2021-12-17 16:39:39,187:INFO:create_model(estimator=catboost, fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, add_to_model_list=True, display=<pycaret.internal.Display.Display object at 0x0000023E5112A070>, kwargs={})
+2021-12-17 16:39:39,187:INFO:Checking exceptions
+2021-12-17 16:39:39,187:INFO:Importing libraries
+2021-12-17 16:39:39,187:INFO:Copying training dataset
+2021-12-17 16:39:39,230:INFO:Defining folds
+2021-12-17 16:39:39,230:INFO:Declaring metric variables
+2021-12-17 16:39:39,244:INFO:Importing untrained model
+2021-12-17 16:39:39,291:INFO:CatBoost Classifier Imported succesfully
+2021-12-17 16:39:39,318:INFO:Starting cross validation
+2021-12-17 16:39:39,320:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=3
+2021-12-17 16:44:48,452:INFO:Calculating mean and std
+2021-12-17 16:44:48,454:INFO:Creating metrics dataframe
+2021-12-17 16:44:48,462:INFO:Uploading results into container
+2021-12-17 16:44:48,462:INFO:Uploading model into container now
+2021-12-17 16:44:48,462:INFO:create_model_container: 15
+2021-12-17 16:44:48,463:INFO:master_model_container: 15
+2021-12-17 16:44:48,463:INFO:display_container: 2
+2021-12-17 16:44:48,463:INFO:<catboost.core.CatBoostClassifier object at 0x0000023E35683FD0>
+2021-12-17 16:44:48,463:INFO:create_model() succesfully completed......................................
+2021-12-17 16:44:48,571:INFO:SubProcess create_model() end ==================================
+2021-12-17 16:44:48,571:INFO:Creating metrics dataframe
+2021-12-17 16:44:48,696:INFO:Initializing create_model()
+2021-12-17 16:44:48,696:INFO:create_model(estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, add_to_model_list=True, display=None, kwargs={})
+2021-12-17 16:44:48,696:INFO:Checking exceptions
+2021-12-17 16:44:48,697:INFO:Importing libraries
+2021-12-17 16:44:48,697:INFO:Copying training dataset
+2021-12-17 16:44:48,752:INFO:Defining folds
+2021-12-17 16:44:48,752:INFO:Declaring metric variables
+2021-12-17 16:44:48,752:INFO:Importing untrained model
+2021-12-17 16:44:48,752:INFO:Declaring custom model
+2021-12-17 16:44:48,753:INFO:Naive Bayes Imported succesfully
+2021-12-17 16:44:48,753:INFO:Cross validation set to False
+2021-12-17 16:44:48,754:INFO:Fitting Model
+2021-12-17 16:44:49,247:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2021-12-17 16:44:49,247:INFO:create_models() succesfully completed......................................
+2021-12-17 16:44:49,529:INFO:create_model_container: 15
+2021-12-17 16:44:49,529:INFO:master_model_container: 15
+2021-12-17 16:44:49,529:INFO:display_container: 2
+2021-12-17 16:44:49,530:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2021-12-17 16:44:49,530:INFO:compare_models() succesfully completed......................................
+2021-12-17 16:46:15,281:INFO:Initializing create_model()
+2021-12-17 16:46:15,281:INFO:create_model(estimator=catboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, add_to_model_list=True, display=None, kwargs={})
+2021-12-17 16:46:15,281:INFO:Checking exceptions
+2021-12-17 16:46:15,281:INFO:Preparing display monitor
+2021-12-17 16:46:15,341:INFO:Importing libraries
+2021-12-17 16:46:15,341:INFO:Copying training dataset
+2021-12-17 16:46:15,380:INFO:Defining folds
+2021-12-17 16:46:15,380:INFO:Declaring metric variables
+2021-12-17 16:46:15,394:INFO:Importing untrained model
+2021-12-17 16:46:15,412:INFO:CatBoost Classifier Imported succesfully
+2021-12-17 16:46:15,447:INFO:Starting cross validation
+2021-12-17 16:46:15,448:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=3
+2021-12-17 16:51:27,949:INFO:Calculating mean and std
+2021-12-17 16:51:27,950:INFO:Creating metrics dataframe
+2021-12-17 16:51:27,969:INFO:Finalizing model
+2021-12-17 16:52:54,354:INFO:Uploading results into container
+2021-12-17 16:52:54,355:INFO:Uploading model into container now
+2021-12-17 16:52:54,374:INFO:create_model_container: 16
+2021-12-17 16:52:54,374:INFO:master_model_container: 16
+2021-12-17 16:52:54,375:INFO:display_container: 3
+2021-12-17 16:52:54,375:INFO:<catboost.core.CatBoostClassifier object at 0x0000023E005A1BB0>
+2021-12-17 16:52:54,375:INFO:create_model() succesfully completed......................................
+2021-12-17 16:52:54,546:INFO:Initializing predict_model()
+2021-12-17 16:52:54,546:INFO:predict_model(estimator=<catboost.core.CatBoostClassifier object at 0x0000023E005A1BB0>, probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-12-17 16:52:54,546:INFO:Checking exceptions
+2021-12-17 16:52:54,546:INFO:Preloading libraries
+2021-12-17 16:52:54,547:INFO:Preparing display monitor
+2021-12-17 16:52:58,554:INFO:Initializing plot_model()
+2021-12-17 16:52:58,555:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=<catboost.core.CatBoostClassifier object at 0x0000023E005A1BB0>, feature_name=None, fit_kwargs=None, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-12-17 16:52:58,555:INFO:Checking exceptions
+2021-12-17 16:52:59,498:INFO:Preparing display monitor
+2021-12-17 16:52:59,508:INFO:Preloading libraries
+2021-12-17 16:52:59,512:INFO:Copying training dataset
+2021-12-17 16:52:59,547:INFO:Copying test dataset
+2021-12-17 16:53:00,562:INFO:Plot type: auc
+2021-12-17 16:53:00,816:INFO:Fitting Model
+2021-12-17 16:53:00,834:INFO:Scoring test/hold-out set
+2021-12-17 16:53:01,997:INFO:Visual Rendered Successfully
+2021-12-17 16:53:02,076:INFO:plot_model() succesfully completed......................................
