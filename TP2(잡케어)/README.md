@@ -33,3 +33,5 @@
   - ver0.7 : pycaret, cat, tune / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.7.html)
   - target 값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22개)
   - ver0.8 : pycaret, cat / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.8.html)
+  - 1값으로 채워진 person_prefer_f, g 특성 제거, 순서형 특성 수치형 지정(2021.12.18)
+  - ver0.9 : pycaret, cat / combine, numeric [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.9.html)
