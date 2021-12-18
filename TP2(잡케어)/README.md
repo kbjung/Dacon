@@ -7,7 +7,7 @@
 + 활용 기술 🔧
   - 데이터 수집 : 
   - 데이터 탐색 : matplotlib
-  - 머신 러닝 모델 및 라이브러리 : pycaret, rf, cat, nb
+  - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
 
