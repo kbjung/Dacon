@@ -39,4 +39,4 @@
   - ver1.0 : pycaret, nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.0.html)
   - ver1.1 : pycaret, tuned_nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.1.html)
   - 추가)순서형 특성 수치형 지정
-  - ver1.2 : pycaret, tuned_nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.2.html)
+  - ver1.2 : pycaret, nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.2.html)
