@@ -31,7 +31,7 @@
   - 1값으로 채워진 person_prefer_f, g 특성 제거
   - ver0.6 : pycaret, cat, tune [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.6.html)
   - ver0.7 : pycaret, cat, tune / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.7.html)
-  - target 값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22개)
+  - target값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22개)
   - ver0.8 : pycaret, cat / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.8.html)
 + 1값으로 채워진 person_prefer_f, g 특성 제거, 순서형 특성 수치형 지정(2021.12.18)
   - ver0.9 : pycaret, cat / combine, numeric [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.9.html)
@@ -40,5 +40,8 @@
   - ver1.1 : pycaret, tuned_nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.1.html)
   - 추가)순서형 특성 수치형 지정
   - ver1.2 : pycaret, nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.2.html)
-+ target 값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22개)(2021.12.20)
++ target값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22특성)(2021.12.20)
   - ver1.3 : pycaret, nb / combine, 순서형 -> 수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.3.html)
++ target값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(25특성)(2021.12.20)
+  - ver1.4 : combine, 순서형->수치형 / pycaret, nb [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.4.html)
+  - ver1.5 : combine, 순서형->수치형 / pycaret, cat [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.5.html)
