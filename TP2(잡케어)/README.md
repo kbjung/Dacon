@@ -40,3 +40,5 @@
   - ver1.1 : pycaret, tuned_nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.1.html)
   - 추가)순서형 특성 수치형 지정
   - ver1.2 : pycaret, nb / combine [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.2.html)
++ target 값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22개)(2021.12.20)
+  - ver1.3 : pycaret, nb / combine, 순서형 -> 수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.3.html)
