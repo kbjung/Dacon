@@ -43,5 +43,5 @@
 + target값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(22특성)(2021.12.20)
   - ver1.3 : pycaret, nb / combine, 순서형 -> 수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.3.html)
 + target값 기준, 특성별 유니크 값이 비교적 많이 다른 특성만 선택(25특성)(2021.12.20)
-  - ver1.4 : combine, 순서형->수치형 / pycaret, nb [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.4.html)
-  - ver1.5 : combine, 순서형->수치형 / pycaret, cat [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.5.html)
+  - ver1.4 : pycaret, nb / combine, 순서형->수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.4.html)
+  - ver1.5 : pycaret, cat / combine, 순서형->수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.5.html)
