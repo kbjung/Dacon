@@ -14354,7 +14354,7 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># pycaret, nb/cat(blend)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># pycaret: blend(nb, cat, gbc, lr 중)</span>
 <span class="c1"># 매칭 별 최적 모델 적용</span>
 <span class="c1"># tune : ❌(자체 점수 떨어짐.)</span>
 <span class="c1"># combine</span>
@@ -16082,7 +16082,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 40s</span>
+<span class="c1"># 1m 50s</span>
 </pre></div>
 
      </div>
@@ -16337,7 +16337,7 @@ memory usage: 7.6 MB
 <span class="n">cat</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;catboost&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">nb</span><span class="p">,</span> <span class="n">cat</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 50s</span>
+<span class="c1"># 1m 36s</span>
 </pre></div>
 
      </div>
@@ -16494,7 +16494,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 6m 29s</span>
+<span class="c1"># 5m 45s</span>
 </pre></div>
 
      </div>
@@ -16749,7 +16749,7 @@ memory usage: 7.6 MB
 <span class="n">cat</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;catboost&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">nb</span><span class="p">,</span> <span class="n">cat</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 3m 55s</span>
+<span class="c1"># 3m 21s</span>
 </pre></div>
 
      </div>
@@ -16906,7 +16906,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 29s</span>
+<span class="c1"># 1m 19s</span>
 </pre></div>
 
      </div>
@@ -17161,7 +17161,7 @@ memory usage: 7.6 MB
 <span class="n">cat</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;catboost&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">nb</span><span class="p">,</span> <span class="n">cat</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 28s</span>
+<span class="c1"># 1m 17s</span>
 </pre></div>
 
      </div>
@@ -17318,7 +17318,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 6m 18s</span>
+<span class="c1"># 5m 38s</span>
 </pre></div>
 
      </div>
@@ -17573,7 +17573,7 @@ memory usage: 7.6 MB
 <span class="n">gbc</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;gbc&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">nb</span><span class="p">,</span> <span class="n">gbc</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 3m 43s</span>
+<span class="c1"># 2m 41s</span>
 </pre></div>
 
      </div>
@@ -17730,7 +17730,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 44s</span>
+<span class="c1"># 39s</span>
 </pre></div>
 
      </div>
@@ -17985,7 +17985,7 @@ memory usage: 7.6 MB
 <span class="n">gbc</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;gbc&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">nb</span><span class="p">,</span> <span class="n">gbc</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 55s</span>
+<span class="c1"># 12s</span>
 </pre></div>
 
      </div>
@@ -18142,7 +18142,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 55s</span>
+<span class="c1"># 1m 40s</span>
 </pre></div>
 
      </div>
@@ -18397,7 +18397,7 @@ memory usage: 7.6 MB
 <span class="n">lr</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;lr&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">gbc</span><span class="p">,</span> <span class="n">lr</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 40s</span>
+<span class="c1"># 1m 5s</span>
 </pre></div>
 
      </div>
@@ -18554,7 +18554,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 5s</span>
+<span class="c1"># 53s</span>
 </pre></div>
 
      </div>
@@ -18809,6 +18809,7 @@ memory usage: 7.6 MB
 <span class="n">gbc</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;gbc&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">nb</span><span class="p">,</span> <span class="n">gbc</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
+<span class="c1"># 18s</span>
 </pre></div>
 
      </div>
@@ -18965,7 +18966,7 @@ memory usage: 7.6 MB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 2m 15s</span>
+<span class="c1"># 2m 2s</span>
 </pre></div>
 
      </div>
@@ -19220,7 +19221,7 @@ memory usage: 7.6 MB
 <span class="n">lr</span> <span class="o">=</span> <span class="n">create_model</span><span class="p">(</span><span class="s1">&#39;lr&#39;</span><span class="p">)</span>
 <span class="c1"># 블랜드</span>
 <span class="n">blended_model</span> <span class="o">=</span> <span class="n">blend_models</span><span class="p">([</span><span class="n">gbc</span><span class="p">,</span> <span class="n">lr</span><span class="p">],</span><span class="n">fold</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">optimize</span><span class="o">=</span><span class="s1">&#39;F1&#39;</span><span class="p">)</span>
-<span class="c1"># 1m 41s</span>
+<span class="c1"># 1m 21s</span>
 </pre></div>
 
      </div>
