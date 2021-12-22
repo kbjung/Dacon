@@ -10,7 +10,7 @@
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
-  - 최고점 : **✨0.6505599843**(2021-12-21 14:52:09, 65등,  총 549명 참가)
+  - 최고점 : **✨0.6681477904**(2021-12-22 16:01:09, 55등,  총 549명 참가)
 
 
 ### 01 데이터 수집
