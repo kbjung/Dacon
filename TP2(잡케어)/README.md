@@ -10,7 +10,7 @@
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
-  - 최고점 : **✨0.6681477904**(2021-12-22 16:01:09, 55등,  총 549명 참가)
+  - 최고점 : **✨0.6849377123**(2021-12-27 15:34:39, 70등,  총 549명 참가)
 
 
 ### 01 데이터 수집
@@ -54,8 +54,11 @@
   - ver1.8 : pycaret, nb/cat / combine, 수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.8.html)
 + 25특성, 8매칭별 훈련, 단계별 blend(2021.12.22)
   - ver1.9 : pycaret, blend 2 models(nb, cat, gbc, lr 중) / combine, 수치형 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver1.9.html)
-  - ✨ver2.0 : pycaret, blend 2 models(nb, cat, gbc 중) / combine, 수치형, minmax [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.0.html)
+  - ver2.0 : pycaret, blend 2 models(nb, cat, gbc 중) / combine, 수치형, minmax [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.0.html)
 + 25특성, 8매칭별 훈련, blend(2021.12.22)
   - ver2.1 : pycaret, blend 3 models(nb, cat, gbc) / combine, 수치형, minmax [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.1.html)
 + 25특성, 4매칭별 훈련, 단계별 blend(2021.12.25)
   - ver.2.2 : pycaret, blend 2 models(nb, cat, gbc 중) / combine, 수치형, minmax [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.2.html)
++ 5특성 제거, probability_threshold 제한(2021.12.27)
+  - ver2.3 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.3.html)
+  - ✨ver2.4 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.4.html)
