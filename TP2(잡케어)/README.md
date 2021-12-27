@@ -61,4 +61,6 @@
   - ver.2.2 : pycaret, blend 2 models(nb, cat, gbc 중) / combine, 수치형, minmax [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.2.html)
 + 5특성 제거, probability_threshold 제한(2021.12.27)
   - ver2.3 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.3.html)
-  - ✨ver2.4 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.4.html)
+  - ver2.4 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.4.html)
++ 26특성, probability_threshold 제한(2021.12.27)
+  - ✨ver2.4 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.5.html)
