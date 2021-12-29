@@ -18,11 +18,18 @@
 
 ### 02 데이터 분석 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
 + 기본 데이터 분석(2021.12.14 ~ 17) [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.1.html)
-+ 데이터 분석(2021.12.17~29)
+  - 속성별 target값 분포 확인
+  - 사용자가 이용한 컨텐츠 수 파악한 뒤, 이용 컨텐츠 수별 target 값 비율 확인.(열람한 컨텐츠가 많을 수록 이용을 많이 할 것으로 가정)
+  - target 값별로 데이터 셋을 만든 뒤, 각 셋에서 특성마다 유니크 값 개수의 분포를 비교.(특성1의 유니크 값 분포를 target 값이 0, 1일때 비교) 많은 차이가 나는 특성이 훈련/예측에 좋을 것이라 판단.
++ 매칭별 경우의 수로 분석(2021.12.21~25)
   - ver0.2 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.2.html)
   - ver0.3 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.3.html)
+  - 매칭별로 나누어, target 값의 분포 확인.
++ target값 별 특성의 분포 확인(2021.12.29)
   - ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.4.html)
   - ver0.5 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.5.html)
+  - 매칭 특성은 사람 선호 특성과 컨텐츠 속성이 같은지 다른지를 알려주기에, 비교되는 두 특성이 있다면 의미 없는 특성이라 판단.
+  - 최대한 사용되는 특성을 줄이는 방향으로 진행.
 
 ### 03 모델 선정 및 개선 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/03_%EB%AA%A8%EB%8D%B8%EC%84%A0%EC%A0%95%EB%B0%8F%EA%B0%9C%EC%84%A0)
 + 기본 테스트 (2021.12.14) [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.1.html)
