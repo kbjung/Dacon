@@ -27,7 +27,6 @@
   - 매칭별로 나누어, target 값의 분포 확인.
 + target값 별 특성의 분포 확인(2021.12.29)
   - ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.4.html)
-  - ver0.5 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.5.html)
   - 매칭 특성은 사람 선호 특성과 컨텐츠 속성이 같은지 다른지를 알려주기에, 비교되는 두 특성이 있다면 의미 없는 특성이라 판단.
   - 최대한 사용되는 특성을 줄이는 방향으로 진행.
 
