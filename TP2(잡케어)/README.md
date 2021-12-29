@@ -78,5 +78,5 @@
   - ver2.5 : pycaret, cat / combine, 수치형 / probability_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.5.html)
 + 26특성, blend, probability_threshold 제한(2021.12.28)
   - ✨ver2.6 : pycaret, blend(cat, tuned_lgbm) / combine, numeric / probabiltily_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.6.html)
-+ 속성데이터 추가(data2), 5특성 제거, pb_thr 제한(2021.12.29)
++ 속성데이터 추가(이하 data2), 5특성 제거, pb_thr 제한(2021.12.29)
   - ver2.7 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.7.html)
