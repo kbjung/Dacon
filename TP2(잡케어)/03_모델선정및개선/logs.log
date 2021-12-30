@@ -50219,3 +50219,148 @@ AssertionError
 2021-12-31 06:38:42,340:INFO:Extra Trees Classifier Imported succesfully
 2021-12-31 06:38:42,373:INFO:Starting cross validation
 2021-12-31 06:38:42,374:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=-1
+2021-12-31 06:48:02,508:INFO:Calculating mean and std
+2021-12-31 06:48:02,549:INFO:Creating metrics dataframe
+2021-12-31 06:48:02,605:INFO:Uploading results into container
+2021-12-31 06:48:02,606:INFO:Uploading model into container now
+2021-12-31 06:48:02,607:INFO:create_model_container: 6
+2021-12-31 06:48:02,607:INFO:master_model_container: 6
+2021-12-31 06:48:02,607:INFO:display_container: 2
+2021-12-31 06:48:02,619:INFO:CustomProbabilityThresholdClassifier(bootstrap=False, ccp_alpha=0.0,
+                                     class_weight=None,
+                                     classifier=ExtraTreesClassifier(bootstrap=False,
+                                                                     ccp_alpha=0.0,
+                                                                     class_weight=None,
+                                                                     criterion='gini',
+                                                                     max_depth=None,
+                                                                     max_features='auto',
+                                                                     max_leaf_nodes=None,
+                                                                     max_samples=None,
+                                                                     min_impurity_decrease=0.0,
+                                                                     min_impurity_split=None,
+                                                                     min_samples_leaf=1,
+                                                                     min_samples_split=2,
+                                                                     min_wei...
+                                                                     random_state=0,
+                                                                     verbose=0,
+                                                                     warm_start=False),
+                                     criterion='gini', max_depth=None,
+                                     max_features='auto', max_leaf_nodes=None,
+                                     max_samples=None,
+                                     min_impurity_decrease=0.0,
+                                     min_impurity_split=None,
+                                     min_samples_leaf=1, min_samples_split=2,
+                                     min_weight_fraction_leaf=0.0,
+                                     n_estimators=100, n_jobs=-1,
+                                     oob_score=False, probability_threshold=0.4,
+                                     random_state=0, verbose=0,
+                                     warm_start=False)
+2021-12-31 06:48:02,619:INFO:create_model() succesfully completed......................................
+2021-12-31 06:48:02,915:INFO:SubProcess create_model() end ==================================
+2021-12-31 06:48:02,915:INFO:Creating metrics dataframe
+2021-12-31 06:48:02,944:INFO:Initializing Light Gradient Boosting Machine
+2021-12-31 06:48:02,944:INFO:Total runtime is 11.698403410116832 minutes
+2021-12-31 06:48:02,957:INFO:SubProcess create_model() called ==================================
+2021-12-31 06:48:02,958:INFO:Initializing create_model()
+2021-12-31 06:48:02,958:INFO:create_model(estimator=lightgbm, fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, add_to_model_list=True, probability_threshold=0.4, display=<pycaret.internal.Display.Display object at 0x0000019B1B0DDC70>, kwargs={})
+2021-12-31 06:48:02,958:INFO:Checking exceptions
+2021-12-31 06:48:02,958:INFO:Importing libraries
+2021-12-31 06:48:02,959:INFO:Copying training dataset
+2021-12-31 06:48:03,261:INFO:Defining folds
+2021-12-31 06:48:03,262:INFO:Declaring metric variables
+2021-12-31 06:48:03,270:INFO:Importing untrained model
+2021-12-31 06:48:03,291:INFO:Light Gradient Boosting Machine Imported succesfully
+2021-12-31 06:48:03,314:INFO:Starting cross validation
+2021-12-31 06:48:03,315:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=-1
+2021-12-31 06:48:28,414:INFO:Calculating mean and std
+2021-12-31 06:48:28,416:INFO:Creating metrics dataframe
+2021-12-31 06:48:28,422:INFO:Uploading results into container
+2021-12-31 06:48:28,423:INFO:Uploading model into container now
+2021-12-31 06:48:28,423:INFO:create_model_container: 7
+2021-12-31 06:48:28,423:INFO:master_model_container: 7
+2021-12-31 06:48:28,423:INFO:display_container: 2
+2021-12-31 06:48:28,428:INFO:CustomProbabilityThresholdClassifier(boosting_type='gbdt', class_weight=None,
+                                     classifier=LGBMClassifier(boosting_type='gbdt',
+                                                               class_weight=None,
+                                                               colsample_bytree=1.0,
+                                                               importance_type='split',
+                                                               learning_rate=0.1,
+                                                               max_depth=-1,
+                                                               min_child_samples=20,
+                                                               min_child_weight=0.001,
+                                                               min_split_gain=0.0,
+                                                               n_estimators=100,
+                                                               n_jobs=-1,
+                                                               num_leaves=31,
+                                                               objective=None,
+                                                               random_state=0...
+                                                               subsample_freq=0),
+                                     colsample_bytree=1.0,
+                                     importance_type='split', learning_rate=0.1,
+                                     max_depth=-1, min_child_samples=20,
+                                     min_child_weight=0.001, min_split_gain=0.0,
+                                     n_estimators=100, n_jobs=-1, num_leaves=31,
+                                     objective=None, probability_threshold=0.4,
+                                     random_state=0, reg_alpha=0.0,
+                                     reg_lambda=0.0, silent='warn',
+                                     subsample=1.0, subsample_for_bin=200000,
+                                     subsample_freq=0)
+2021-12-31 06:48:28,429:INFO:create_model() succesfully completed......................................
+2021-12-31 06:48:28,530:INFO:SubProcess create_model() end ==================================
+2021-12-31 06:48:28,531:INFO:Creating metrics dataframe
+2021-12-31 06:48:28,562:INFO:Initializing CatBoost Classifier
+2021-12-31 06:48:28,562:INFO:Total runtime is 12.125373256206514 minutes
+2021-12-31 06:48:28,572:INFO:SubProcess create_model() called ==================================
+2021-12-31 06:48:28,573:INFO:Initializing create_model()
+2021-12-31 06:48:28,573:INFO:create_model(estimator=catboost, fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, add_to_model_list=True, probability_threshold=0.4, display=<pycaret.internal.Display.Display object at 0x0000019B1B0DDC70>, kwargs={})
+2021-12-31 06:48:28,574:INFO:Checking exceptions
+2021-12-31 06:48:28,574:INFO:Importing libraries
+2021-12-31 06:48:28,574:INFO:Copying training dataset
+2021-12-31 06:48:28,640:INFO:Defining folds
+2021-12-31 06:48:28,640:INFO:Declaring metric variables
+2021-12-31 06:48:28,648:INFO:Importing untrained model
+2021-12-31 06:48:28,666:INFO:CatBoost Classifier Imported succesfully
+2021-12-31 06:48:28,691:INFO:Starting cross validation
+2021-12-31 06:48:28,692:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=0, shuffle=True), n_jobs=-1
+2021-12-31 06:52:53,124:INFO:Calculating mean and std
+2021-12-31 06:52:53,130:INFO:Creating metrics dataframe
+2021-12-31 06:52:53,147:INFO:Uploading results into container
+2021-12-31 06:52:53,147:INFO:Uploading model into container now
+2021-12-31 06:52:53,148:INFO:create_model_container: 8
+2021-12-31 06:52:53,148:INFO:master_model_container: 8
+2021-12-31 06:52:53,149:INFO:display_container: 2
+2021-12-31 06:52:53,150:INFO:CustomProbabilityThresholdClassifier(border_count=254,
+                                     classifier=<catboost.core.CatBoostClassifier object at 0x0000019B6607F1C0>,
+                                     probability_threshold=0.4, random_state=0,
+                                     task_type='CPU', verbose=False)
+2021-12-31 06:52:53,150:INFO:create_model() succesfully completed......................................
+2021-12-31 06:52:53,254:INFO:SubProcess create_model() end ==================================
+2021-12-31 06:52:53,254:INFO:Creating metrics dataframe
+2021-12-31 06:52:53,331:INFO:Initializing create_model()
+2021-12-31 06:52:53,332:INFO:create_model(estimator=CustomProbabilityThresholdClassifier(border_count=254,
+                                     classifier=<catboost.core.CatBoostClassifier object at 0x0000019B6607F1C0>,
+                                     probability_threshold=0.4, random_state=0,
+                                     task_type='CPU', verbose=False), fold=StratifiedKFold(n_splits=5, random_state=0, shuffle=True), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, add_to_model_list=True, probability_threshold=0.4, display=None, kwargs={})
+2021-12-31 06:52:53,332:INFO:Checking exceptions
+2021-12-31 06:52:53,332:INFO:Importing libraries
+2021-12-31 06:52:53,332:INFO:Copying training dataset
+2021-12-31 06:52:53,421:INFO:Defining folds
+2021-12-31 06:52:53,422:INFO:Declaring metric variables
+2021-12-31 06:52:53,422:INFO:Importing untrained model
+2021-12-31 06:52:53,423:INFO:Declaring custom model
+2021-12-31 06:52:53,427:INFO:CustomProbabilityThresholdClassifier Imported succesfully
+2021-12-31 06:52:53,428:INFO:Cross validation set to False
+2021-12-31 06:52:53,428:INFO:Fitting Model
+2021-12-31 06:54:05,808:INFO:CustomProbabilityThresholdClassifier(border_count=254,
+                                     classifier=<catboost.core.CatBoostClassifier object at 0x0000019B6607F370>,
+                                     probability_threshold=0.4, random_state=0,
+                                     task_type='CPU', verbose=False)
+2021-12-31 06:54:05,808:INFO:create_models() succesfully completed......................................
+2021-12-31 06:54:05,934:INFO:create_model_container: 8
+2021-12-31 06:54:05,935:INFO:master_model_container: 8
+2021-12-31 06:54:05,935:INFO:display_container: 2
+2021-12-31 06:54:05,935:INFO:CustomProbabilityThresholdClassifier(border_count=254,
+                                     classifier=<catboost.core.CatBoostClassifier object at 0x0000019B6607F370>,
+                                     probability_threshold=0.4, random_state=0,
+                                     task_type='CPU', verbose=False)
+2021-12-31 06:54:05,935:INFO:compare_models() succesfully completed......................................
