@@ -11,7 +11,9 @@
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
   - 최고점 : **✨0.6886392929**(2021-12-28 14:05:53, 71등,  총 549명 참가)
-
++ 배운 점  
+  - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
+  - 이진분류에서 확률 제한이 효과가 높음.
 
 ### 01 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
 + 기존 데이터 + 속성D코드, 속성H코드, 속성L코드 추가 [code](https://github.com/kbjung/Dacon/blob/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91/01_01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91_ver0.1.ipynb)
@@ -25,9 +27,9 @@
   - ver0.2 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.2.html)
   - ver0.3 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.3.html)
   - 매칭별로 나누어, target 값의 분포 확인.
-+ target값 별 특성의 분포 확인(2021.12.29)
++ target값 별 특성의 분포 확인(2021.12.29~30)
   - ver0.4 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.4.html)
-  - 매칭 특성은 사람 선호 특성과 컨텐츠 속성이 같은지 다른지를 알려주기에, 비교되는 두 특성이 있다면 의미 없는 특성이라 판단.
+  - 매칭 특성은 사람 선호 특성과 컨텐츠 속성이 같은지 다른지를 알려주기에, 비교되는 두 특성이 있다면 의미 없는 특성이라 판단.(성적이 낮아짐. 영향력이 있다 판단.)
   - 최대한 사용되는 특성을 줄이는 방향으로 진행.
 
 ### 03 모델 선정 및 개선 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/03_%EB%AA%A8%EB%8D%B8%EC%84%A0%EC%A0%95%EB%B0%8F%EA%B0%9C%EC%84%A0)
@@ -79,8 +81,23 @@
 + 26특성, blend, probability_threshold(이하 pb_thr) 제한(2021.12.28)
   - ✨ver2.6 : pycaret(이하 py), blend(cat, tuned_lgbm) / combine(이하 comb), numeric(이하 nu) / probabiltily_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.6.html)
 + 속성데이터 추가(이하 data2), 5특성 제거, pb_thr 제한(2021.12.29)
-  - ver2.7 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.7.html)
-+ data2, 11특성 제거, pb_thr (2021.12.29)
-  - ver2.8 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.8.html)
-+ data2, 16특성 제거, pb_thr (2021.12.29)
-  - ver2.9 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.9.html)
+  - ver2.7 : py:cat / comb,nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.7.html)
++ data2, 11특성 제거, pb_thr(2021.12.29)
+  - ver2.8 : py:cat / comb,nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.8.html)
++ data2, 16특성 제거, pb_thr(2021.12.29)
+  - ver2.9 : py:cat / comb,nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.9.html)
++ data2, 16특성 제거, pb_thr(2021.12.30)
+  - 제거 특성(16개) : 기본 5개 + 매칭 특성 6개 + 타겟별 차이 적은 특성 5개
+  - ver3.0 : py:cat / nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.0.html)
++ data2, 16특성 제거, pb_thr(2021.12.30)
+  - 제거 특성(16개) : 기본 5개 + 매칭 특성 6개 + 타겟별 차이 적은 특성 5개
+  - ver3.1 : py:cat / nu, bin / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.1.html)
++ data2, 16특성 제거, pb_thr(2021.12.30)
+  - 제거 특성(16개) : 기본 5개 + 매칭 특성과 연관없는 특성 11개
+  - ver3.2 : py:cat/nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.2.html)
++ data2, 27특성 제거, pb_thr(2021.12.31)
+  - 제거 특성(27개) : 기본 5개 + 매칭 특성과 연관없는 특성 20개 + 타겟별 차이 적은 특성 2개
+  - ver3.3 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.3.html)
++ data2, 29특성 제거, pb_thr(2021.12.31)
+  - 제거 특성(29개) : 기본 5개 + 매칭 특성과 연관없는 특성 20개 + 타겟별 차이 적은 특성 4개
+  - ver3.3 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.3.html)
