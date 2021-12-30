@@ -11,7 +11,9 @@
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
   - 최고점 : **✨0.6886392929**(2021-12-28 14:05:53, 71등,  총 549명 참가)
-
++ 배운 점  
+  - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
+  - 이진분류에서 확률 제한이 효과가 높음.
 
 ### 01 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
 + 기존 데이터 + 속성D코드, 속성H코드, 속성L코드 추가 [code](https://github.com/kbjung/Dacon/blob/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91/01_01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91_ver0.1.ipynb)
