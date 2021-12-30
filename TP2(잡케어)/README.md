@@ -79,8 +79,17 @@
 + 26특성, blend, probability_threshold(이하 pb_thr) 제한(2021.12.28)
   - ✨ver2.6 : pycaret(이하 py), blend(cat, tuned_lgbm) / combine(이하 comb), numeric(이하 nu) / probabiltily_threshold [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.6.html)
 + 속성데이터 추가(이하 data2), 5특성 제거, pb_thr 제한(2021.12.29)
-  - ver2.7 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.7.html)
-+ data2, 11특성 제거, pb_thr (2021.12.29)
-  - ver2.8 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.8.html)
-+ data2, 16특성 제거, pb_thr (2021.12.29)
-  - ver2.9 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.9.html)
+  - ver2.7 : py:cat / comb,nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.7.html)
++ data2, 11특성 제거, pb_thr(2021.12.29)
+  - ver2.8 : py:cat / comb,nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.8.html)
++ data2, 16특성 제거, pb_thr(2021.12.29)
+  - ver2.9 : py:cat / comb,nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver2.9.html)
++ data2, 16특성 제거, pb_thr(2021.12.30)
+  - 제거 특성(16개) : 기본 5개 + 매칭 특성 6개 + 타겟별 차이 적은 특성 5개
+  - ver3.0 : py:cat / nu / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.0.html)
++ data2, 16특성 제거, pb_thr(2021.12.30)
+  - 제거 특성(16개) : 기본 5개 + 매칭 특성 6개 + 타겟별 차이 적은 특성 5개
+  - ver3.1 : py:cat / nu, bin / pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.1.html)
++ data2, 16특성 제거, pb_thr(2021.12.30)
+  - 제거 특성(16개) : 기본 5개 + 매칭 특성과 연관없는 특성 11개
+  - ver3.2 : py:cat/nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.2.html)
