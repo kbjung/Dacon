@@ -5,7 +5,7 @@
 + 기간 : 2021년 12월 6일 (19:00) ~ 2022년 1월 28일
 + 팀원 : 최두호(팀장), 김범중, 김진연
 + 활용 기술 🔧
-  - 데이터 수집 : 
+  - 데이터 수집 : pandas
   - 데이터 탐색 : matplotlib
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
@@ -13,7 +13,8 @@
   - 최고점 : **✨0.6886392929**(2021-12-28 14:05:53, 71등,  총 549명 참가)
 + 배운 점  
   - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
-  - 이진분류에서 확률 제한이 효과가 높음.
+  - 이진분류에서 기준 확률 조정이 효과가 높음.
+  - 데이셋을 나누어 진행하는 것이 F1 점수를 올린다.
 
 ### 01 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
 + 기존 데이터 + 속성D코드, 속성H코드, 속성L코드 추가 [code](https://github.com/kbjung/Dacon/blob/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91/01_01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91_ver0.1.ipynb)
@@ -107,5 +108,7 @@
   - ver3.5 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.5.html)
 + data2, 5특성 제거, 수치형 특성 지정(16개), pb_thr(2021.01.01)
   - ver3.6 : py:cat/comb,nu(16개)/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.6.html)
-+ data2, 5특성 제거, 매칭별 진행(16개), pb_thr(2021.01.01)
-  - ver3.6 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.7.html)
++ data2, 6특성 제거, 매칭별 진행(16개), pb_thr(2021.01.01)
+  - ver3.7 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.7.html)
++ data2, 6특성 제거, 특정 특성 고유 값 별 진행(2개), pb_thr(2021.01.01)
+  - ver3.8 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.8.html)
