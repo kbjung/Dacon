@@ -9,7 +9,7 @@
 + 기간 : 2021년 12월 6일 (19:00) ~ 2022년 1월 28일
 + 팀원 : 최두호(팀장), 김범중, 김진연
 + 활용 기술 🔧
-  - 데이터 수집 : 
+  - 데이터 수집 : pandas
   - 데이터 탐색 : matplotlib
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
