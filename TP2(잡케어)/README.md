@@ -107,3 +107,5 @@
   - ver3.5 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.5.html)
 + data2, 5특성 제거, 수치형 특성 지정(16개), pb_thr(2021.01.01)
   - ver3.6 : py:cat/comb,nu(16개)/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.6.html)
++ data2, 5특성 제거, 매칭별 진행(16개), pb_thr(2021.01.01)
+  - ver3.6 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.7.html)
