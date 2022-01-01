@@ -103,3 +103,7 @@
 + data2, 29특성 제거, pb_thr(2021.12.31)
   - 제거 특성(29개) : 기본 5개 + 매칭 특성과 연관없는 특성 20개 + 타겟별 차이 적은 특성 4개
   - ver3.4 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.4.html)
++ data2, 5특성 제거, pb_thr(2021.12.31)
+  - ver3.5 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.5.html)
++ data2, 5특성 제거, 수치형 특성 지정(16개), pb_thr(2021.01.01)
+  - ver3.6 : py:cat/comb,nu(16개)/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.6.html)
