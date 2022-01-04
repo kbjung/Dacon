@@ -113,4 +113,4 @@
 + data2, 6특성 제거, 특정 특성 고유 값 별 진행(2개), pb_thr(2021.01.01)
   - ver3.8 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.8.html)
 + data2, 6특성 제거, pb_thr(2021.01.04)
-  - ver3.9 : py:blend(cat,lgbm)/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.9.html)
+  - ver3.9 : py:blend(cat,tuned_lgbm)/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.9.html)
