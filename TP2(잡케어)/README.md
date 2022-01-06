@@ -115,3 +115,5 @@
   - ver3.8 : py:cat/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.8.html)
 + data2, 6특성 제거, pb_thr(2021.01.04)
   - ver3.9 : py:blend(cat,tuned_lgbm)/comb,nu/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver3.9.html)
++ data2, 4특성 제거, PCA, pb_thr(2021.01.06)
+  - ver4.0 : py:blend(cat,tuned_lgbm)/comb,nu,pca(25)/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.0.html)
