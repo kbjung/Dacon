@@ -15,6 +15,7 @@
   - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
   - 이진분류에서 기준 확률 조정이 효과가 높음.
   - 데이셋을 나누어 진행하는 것이 F1 점수를 올린다.
+  - pycaret에서 catboost는 gpu 가속이 잘 안되는 듯.
 
 ### 01 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
 + 기존 데이터 + 속성D코드, 속성H코드, 속성L코드 추가 [code](https://github.com/kbjung/Dacon/blob/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91/01_01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91_ver0.1.ipynb)
