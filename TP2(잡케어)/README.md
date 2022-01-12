@@ -10,7 +10,7 @@
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
-  - 최고점 : **✨0.6977146638**(2022-01-12 11:42:26, 117등, 총 549명 참가)
+  - 최고점 : **✨0.7001560377**(2022-01-12 16:25:40, 62등, 총 549명 참가)
 + 배운 점  
   - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
   - 이진분류에서 기준 확률 조정이 효과가 높음.
@@ -123,6 +123,8 @@
 + data2, 4특성 제거, pb_thr(2021.01.11)
   - ver4.2 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.2.html)
 + data2, 7특성 제거, pb_thr(2021.01.12)
-  - ✨ver4.3 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.3.html)
+  - ver4.3 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.3.html)
 + data2, 9특성 제거, pb_thr(2021.01.12)
   - ver4.4 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.4.html)
++ data2, 9특성 제거, random_state 5가지, pb_thr(2021.01.12)
+  - ✨ver4.5 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.5.html)
