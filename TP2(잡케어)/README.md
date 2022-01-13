@@ -136,3 +136,5 @@
   - ver4.6.1 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.6.1.html)
 + data2, 6특성 제거, random_state 5가지, pb_thr(2021.01.13)
   - ver4.6.2 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.6.2.html)
++ data2, 8특성 제거, random_state 5가지, pb_thr(2021.01.13)
+  - ver4.7 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver4.7.html)
