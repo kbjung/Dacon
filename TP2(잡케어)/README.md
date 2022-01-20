@@ -164,3 +164,5 @@
   - 자체 점수 ↑, 제출 점수 ↓ ⇒ 과대적합 ⇒ 기본 세팅으로 적용
 + 특성 중요도 확인, data2, 7특성 제거, random_state 5가지, pb_thr(2021.01.20)
   - ver5.8.1 : cat/ohe=2이하, early=77/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.8.1.html)
++ data2, 9특성 제거, random_state 5가지, pb_thr(2021.01.20)
+  - ver5.8 : cat/ohe=2이하, early=77/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.8.html)
