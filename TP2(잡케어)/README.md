@@ -154,3 +154,8 @@
   - ver5.4 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.4.html)
 + data2, 7특성 제거, random_state 10가지(높은 점수 결과만), pb_thr(2021.01.19)
   - ver5.5 : cat/ohe=2이하, early=100/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.5.html)
++ 여러 test_size 적용, data2, 7특성 제거, random_state 5가지(높은 점수 결과만), pb_thr(2021.01.20)
+  - ver5.6.1 : cat/ohe=2이하, early=77/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.6.1.html)
++ data2, 7특성 제거, random_state 5가지(높은 점수 결과만), pb_thr(2021.01.20)
+  - ver5.6 : cat/ohe=2이하, early=77, test_size=0.1/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.6.html)
+  - 자체 점수 ↑, 제출 점수 ↓ ⇒ 
