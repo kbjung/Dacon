@@ -153,4 +153,4 @@
 + data2, 7특성 제거, random_state 5가지(높은 점수 결과만), pb_thr(2021.01.19)
   - ver5.4 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.4.html)
 + data2, 7특성 제거, random_state 10가지(높은 점수 결과만), pb_thr(2021.01.19)
-  - ver5.4 : cat/ohe=2이하, early=100/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.4.html)
+  - ver5.5 : cat/ohe=2이하, early=100/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver5.5.html)
