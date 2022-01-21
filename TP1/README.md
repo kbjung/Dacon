@@ -24,6 +24,7 @@
   - 머신 러닝 모델 및 라이브러리 : Pycaret, LinearRegression, Ridge, Catboost 등
   - 평가지표 : MSE, RMSE, R2, NMAE(대회점수지표), NMAE*100(대회점수지표)
 + 역할
+  - 팀명 : 작전주사냥꾼
   - 팀장 : 최두호
   - 팀원 : 김범중 📢, 김진연
 
