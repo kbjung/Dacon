@@ -173,3 +173,5 @@
   - ver5.9 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.9.html)
 + data2, 11특성 제거, random_state 5가지, pb_thr(2021.01.21)
   - ver6.0 : cat/ohe=2이하, early=150/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.0.html)
++ data2, 12특성 제거, random_state 5가지, pb_thr(2021.01.22)
+  - ver6.1 : cat/ohe=2이하, early=50/pb_thr [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.1.html)
