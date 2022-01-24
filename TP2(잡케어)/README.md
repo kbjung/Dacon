@@ -157,6 +157,7 @@
 + cat/data2, 7특성제거, rd:5/ohe=2이하,early=77, test=0.2/pb_thr(2021.01.20) ver5.7 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.7.html)
   - 자체 점수 ↑, 제출 점수 ↓ ⇒ 과대적합 ⇒ 기본 세팅으로 적용
 + 특성중요도/cat/data2, 7특성제거, rd:5/ohe=2이하,early=50/pb_thr(2021.01.20) ver5.8.1 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.8.1.html)
++ 특성중요도/cat/data2, 4특성제거, rd:5/ohe=2이하,early=50/pb_thr(2021.01.24) ver5.8.2 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.8.2.html)
 + cat/data2, 9특성제거, rd:5/ohe=2이하,early=77/pb_thr(2021.01.20) ver5.8 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.8.html)
 + cat/data2, 11특성제거, rd:5/ohe=2이하,early=50/pb_thr(2021.01.21) ver5.9 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver5.9.html)
 + cat/data2, 11특성제거, rd:5/ohe=2이하,early=150/pb_thr(2021.01.21) ver6.0 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.0.html)
