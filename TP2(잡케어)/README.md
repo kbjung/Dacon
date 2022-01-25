@@ -167,4 +167,5 @@
 + cat/data2, 16특성제거, rd:5/ohe=2이하,early=50/pb_thr(2021.01.22) ver6.3 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.3.html)
 + cat/data2, 12특성(50특성제거), rd:5/ohe=2이하,early=50/pb_thr(2021.01.24) ver6.4 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.4.html)
 + cat/data2, 15특성제거, rd:5/ohe=2이하,early=50/pb_thr(2021.01.24) ver6.5 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.5.html)
-+ cat/data2, 7특성제거, rd:5/ohe=5이하,early=50/pb_thr(2021.01.25) ver6.5 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.6.html)
++ cat/data2, 7특성제거, rd:5/ohe=5이하,early=50/pb_thr(2021.01.25) ver6.6 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.6.html)
++ cat/data2, 7특성제거, rd:5, 매칭:8/ohe=2이하,early=50/pb_thr(2021.01.25) ver6.7 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.7.html)
