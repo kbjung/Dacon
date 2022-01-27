@@ -11,7 +11,7 @@
   - 데이터 탐색 : matplotlib, numpy
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
-+ 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/10Bz8g40J4Zkls3ohjEG3HL_vR_lth4rkqEX6XCwhgPM/edit#gid=0)
++ 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/1xufbOsa1g9gMveFQA7CIQBWlXQMtNHj638tUqMmi1EI/edit#gid=0)
   - 최고점 : **✨0.701834167**(2022-01-13 11:08:38, 37등, 총 549명 참가)
 + 배운 점  
   - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
