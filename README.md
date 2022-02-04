@@ -16,8 +16,8 @@
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/1xufbOsa1g9gMveFQA7CIQBWlXQMtNHj638tUqMmi1EI/edit#gid=0)
-  - public 최고점 : **✨0.701834167**(2022-01-13 11:08:38, 37등, 총 1335명 참가)
-  - private 최고점 : **0.6997627581**(189등, 총 1335명 참가)
+  - public 최고점 : **✨0.701834167**(2022-01-13 11:08:38, 37등, 총 1,335명 참가)
+  - private 최고점 : **0.6997627581**(189등, 총 1,335명 참가)
 
 
 ## 🤝🏼 팀프로젝트1 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP1)
