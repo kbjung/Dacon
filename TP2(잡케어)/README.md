@@ -1,24 +1,24 @@
-## 🤝🏼 팀프로젝트2 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP2(잡케어))
+# 🤝🏼 팀프로젝트2 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP2(잡케어))
 
-### 🏆 대회 정보
+## 🏆 대회 정보
 + 대회 : 잡케어 추천 알고리즘 경진대회 [[대회 링크]](https://dacon.io/competitions/official/235863/overview/description)
 + 기간 : 2021.12.06 19:00 ~ 2022.01.28
 + 주제 : 구직자의 이력서를 인공지능 기술로 직무역량을 자동 분석하여 개인별 맞춤형 컨텐츠 추천 모델 구축
 + 목표 : **데이터 전처리&분석, 머신러닝 활용 기술 향상**
 
 
-### 👨‍💻 팀 정보
+## 👨‍💻 팀 정보
 + 팀명 : 보더 콜리
 + 팀장 : **김범중** 📢
 + 팀원 : 최두호, 김진연
 
-### 🔧 활용 기술(Python)
+## 🔧 활용 기술(Python)
   - 데이터 수집 : pandas
   - 데이터 탐색 : matplotlib, numpy
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
   
-### 👏 성과
+## 👏 성과
 + 내용 정리 : [[notion]](https://www.notion.so/Dacon-2d14915013594e6cb30ad36c34ff4c64)
 + 점수 기록 : [[스프레드시트]](https://docs.google.com/spreadsheets/d/18vwewjISwsBQNSL2arV_i5q9LlNfJ-QEtrCiNTuGIJ4/edit?usp=sharing)
   - ✨ public 최고점 : **37등**(총 1,335명 참가) 기록(**0.701834167 점**, 2022-01-13 11:08:38)
@@ -31,10 +31,10 @@
   - 훈련, 테스트(검증) 데이터 분리하는 비율은 기본이 효과적. 
   - 훈련, 테스트(검증) 데이터 분리하는 random_state 값을 여러가지로 설정해, 예측 후 결과를 종합하는 것이 효과적.
 
-### 01\. 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
+## 01\. 데이터 수집 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91)
 + 기존 데이터 + 속성D코드, 속성H코드, 속성L코드 추가 [code](https://github.com/kbjung/Dacon/blob/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91/01_01_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A7%91_ver0.1.ipynb)
 
-### 02\. 데이터 분석 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
+## 02\. 데이터 분석 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)
 + 기본 데이터 분석(2021.12.14 ~ 17) [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/02_데이터분석/02-01_분석ver0.1.html)
   - 속성별 target값 분포 확인
   - 사용자가 이용한 컨텐츠 수 파악한 뒤, 이용 컨텐츠 수별 target 값 비율 확인.(열람한 컨텐츠가 많을 수록 이용을 많이 할 것으로 가정)
@@ -53,7 +53,7 @@
   - 특성 분포 비율, 특성 분포 히스토그램
   - ↳ target값 별 특성 분포가 비슷한 특성 2가지, 애매한 특성 2가지 선별.
 
-### 03\. 모델 선정 및 개선 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/03_%EB%AA%A8%EB%8D%B8%EC%84%A0%EC%A0%95%EB%B0%8F%EA%B0%9C%EC%84%A0)
+## 03\. 모델 선정 및 개선 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/03_%EB%AA%A8%EB%8D%B8%EC%84%A0%EC%A0%95%EB%B0%8F%EA%B0%9C%EC%84%A0)
 + 기본 테스트 (2021.12.14) [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.1.html)
   - ver0.1 : pycaret, cat / combine
   - ver0.1.1 : 모델 비교 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-02_pycaret_ver0.1.1.html)
@@ -180,5 +180,5 @@
 + cat/data2, 7특성제거, rd:5/ohe=5이하,early=50/pb_thr(2021.01.25) ver6.6 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.6.html)
 + cat/data2, 7특성제거, rd:5, 매칭:8/ohe=2이하,early=50/pb_thr(2021.01.25) ver6.7 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.7.html)
 + cat/data2, 7특성제거, rd:5, 매칭:4/ohe=2이하,early=50/pb_thr(2021.01.28) ver6.8 [code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/03_모델선정및개선/03-04_catboost_ver6.8.html)
-### 04\. 결과 종합 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/04_%EA%B2%B0%EA%B3%BC_%ED%95%A9%EC%82%B0)
+## 04\. 결과 종합 [[폴더]](https://github.com/kbjung/Dacon/tree/main/TP2(%EC%9E%A1%EC%BC%80%EC%96%B4)/04_%EA%B2%B0%EA%B3%BC_%ED%95%A9%EC%82%B0)
 + top3 결과 종합 ver0.1(2022.01.28)[code(html)](https://kbjung.github.io/Dacon/TP2(잡케어)/04_결과_합산/04-01_results_ver0.1.html)
