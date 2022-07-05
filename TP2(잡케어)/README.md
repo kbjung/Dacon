@@ -10,7 +10,6 @@
 ### 👨‍💻 팀 정보
 + 팀명 : 보더 콜리
 + 팀원 : 김범중(팀장), 최두호, 김진연
-+ 내용정리 : [[링크]](https://www.notion.so/Dacon-2d14915013594e6cb30ad36c34ff4c64)
 
 ### 🔧 활용 기술(Python)
   - 데이터 수집 : pandas
@@ -19,6 +18,7 @@
   - 평가지표 : F1-score(대회평가지표)
   
 ### 👏 성과
++ 내용정리 : [[링크]](https://www.notion.so/Dacon-2d14915013594e6cb30ad36c34ff4c64)
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/18vwewjISwsBQNSL2arV_i5q9LlNfJ-QEtrCiNTuGIJ4/edit?usp=sharing)
   - ✨ public 최고점 : **37등**(총 1,335명 참가) 기록(**0.701834167 점**, 2022-01-13 11:08:38)
   - ✨ private 최고점 : **189등**(총 1,335명 참가) 기록(**0.6997627581 점**)
