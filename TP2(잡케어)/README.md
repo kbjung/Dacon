@@ -17,10 +17,10 @@
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
   - 평가지표 : F1-score(대회평가지표)
   
-### 👏 결과
+### 👏 성과
 + 점수 기록 : 스프레트시트 [[링크]](https://docs.google.com/spreadsheets/d/18vwewjISwsBQNSL2arV_i5q9LlNfJ-QEtrCiNTuGIJ4/edit?usp=sharing)
-  - public 최고점 : **✨0.701834167**(2022-01-13 11:08:38, 37등, 총 1,335명 참가)
-  - private 최고점 : **0.6997627581**(189등, 총 1,335명 참가)
+  - ✨ public 최고점 : **37등**(총 1,335명 참가)(**0.701834167**, 2022-01-13 11:08:38)
+  - private 최고점 : **189등**총 1,335명 참가(**0.6997627581**, )
 + 배운 점  
   - 적절한 특성 선택 필요. 많은 특성은 노이즈 발생시킴.
   - 기준 확률 조정이 효과가 높음.
