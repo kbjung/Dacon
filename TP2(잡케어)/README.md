@@ -12,7 +12,7 @@
 + 팀원 : 김범중(팀장), 최두호, 김진연
 + 내용정리 : [[링크]](https://www.notion.so/Dacon-2d14915013594e6cb30ad36c34ff4c64)
 
-### 🔧 활용 기술 
+### 🔧 활용 기술(Python)
   - 데이터 수집 : pandas
   - 데이터 탐색 : matplotlib, numpy
   - 머신 러닝 모델 및 라이브러리 : pycaret(classification), randomforest, catboost, naive bayes
