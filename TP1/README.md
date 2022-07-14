@@ -129,6 +129,7 @@
 + 특성 2개 : weekday, weeknum  
 + 특성 3개 : Date, weekday, weeknum  
 + 특성 5개 : KOSDAQ, NASDAQ, S&P500, DOW, KOSPI  
+
 |번호|제출일시|제출점수|자체점수|모델&알고리즘|특성, 방법|
 |---|---|---|---|---|---|
 |00|2021-11-22 09:36:01|3.4608244253|3.56289|linearregression(baseline)|1주전 , 1주 복제|
