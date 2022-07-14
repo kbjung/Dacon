@@ -1,5 +1,5 @@
 # 🤝🏼 팀프로젝트1 [[상세내용]](https://github.com/kbjung/Dacon/tree/main/TP1)
-## 대회 정보
+## 🏆 대회 정보
 + 대회 : 주식 종료 가격 예측 경진대회 [[대회 링크]](https://dacon.io/competitions/official/235857/overview/description)
 + 기간 : 2021.11.10 ~  2021.11.29 10:00 am
   - 팀 병합 마감 : 2021. 11. 26
